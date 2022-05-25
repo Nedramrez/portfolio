@@ -8,6 +8,7 @@ body {
   /* Neutrals/N10 */
 
   background: #f7f7f9;
+  margin: 0;
 }
 
 .status-bars {
@@ -153,11 +154,10 @@ body {
   align-items: flex-start;
   padding: 114px 24px;
   position: absolute;
-  width: 375px;
   height: 604px;
   left: calc(50% - 375px / 2);
   top: 92px;
-  background: url("assets/bg.png") repeat-y;
+  background: url("assets/bg.png") no-repeat;
 }
 
 .social-media-icons {
