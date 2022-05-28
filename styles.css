@@ -1023,7 +1023,6 @@ h4 {
   margin: 12px 0;
 }
 
-
 .see-project > button {
   /* See Project */
 
@@ -1046,14 +1045,6 @@ h4 {
   /* Primary/B500 */
 
   color: #396df2;
-}
-
-.see-project > button:hover {
-  background-color: #6070FF;
-}
-
-.see-project > button:active {
-  background-color: #2230D2;
 }
 
 .about-myself {
@@ -1140,7 +1131,6 @@ h4 {
   height: 48px;
   left: 0;
 
-
   /* Inside auto layout */
 
   flex: none;
@@ -1186,12 +1176,12 @@ h4 {
   margin: 12px 0;
 }
 
-.get-my-resume > button:hover {
-  background-color: #6070FF;
+button:hover {
+  background-color: #6070ff;
 }
 
-.get-my-resume > button:active {
-  background-color: #2230D2;
+button:active {
+  background-color: #2230d2;
 }
 
 .skill-list {
