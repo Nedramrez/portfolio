@@ -1146,7 +1146,7 @@
   margin: 12px 0;
 }
 
-.normal-button-secondary {
+.normal-button-secondary  {
   /* Normal Button/Secondary/Enabled */
 
   /* Auto layout */
@@ -1173,14 +1173,15 @@
   margin: 12px 0;
 }
 
-.get-my-resume {
+.get-my-resume button {
   /* Get my resume */
 
   position: static;
-  width: 138px;
+  width: 150px;
   height: 24px;
   left: 12px;
   top: 12px;
+  border: none;
 
   /* Button /Normal */
 
@@ -1205,7 +1206,7 @@
 
   flex: none;
   flex-grow: 0;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .skill-list {
