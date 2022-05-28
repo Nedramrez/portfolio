@@ -15,7 +15,7 @@
   position: absolute;
   width: 375px;
   height: 44px;
-  left: calc(50% - 375px / 2);
+  left: 0;
   top: 0;
 }
 
@@ -152,7 +152,7 @@
   position: absolute;
   width: 327px;
   height: 376px;
-  left: calc(50% - 375px / 2);
+  left: 0;
   top: 92px;
   background: #fff;
 }
@@ -332,7 +332,6 @@
   /* header-shapes mobile */
 
   position: absolute;
-  width: 375px;
   height: 600px;
   left: 0;
   top: 104px;
@@ -358,8 +357,7 @@
 
   /* Auto layout */
 
-  display: flex;
-  flex-direction: column;
+  display: grid;
   align-items: center;
   padding: 114px 24px;
   position: absolute;
@@ -923,7 +921,7 @@
   position: static;
   width: 327px;
   height: 596px;
-  left: calc(50% - 327px / 2);
+  left: 0;
   top: 754px;
 
   /* Neutrals/N0 */
@@ -955,7 +953,7 @@
   position: static;
   width: 327px;
   height: 596px;
-  left: calc(50% - 327px / 2);
+  left: 0;
   top: 1438px;
 
   /* Neutrals/N0 */
@@ -987,7 +985,7 @@
   position: static;
   width: 327px;
   height: 596px;
-  left: calc(50% - 327px / 2);
+  left: 0;
   top: 2078px;
 
   /* Neutrals/N0 */
@@ -1089,7 +1087,7 @@
   position: absolute;
   width: 327px;
   height: 897px;
-  left: calc(50% - 375px / 2);
+  left: 0;
   top: 3800px;
 }
 
