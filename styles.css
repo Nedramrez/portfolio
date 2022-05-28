@@ -264,7 +264,7 @@
   margin: 6px 0;
 }
 
-.primary-text > p {
+.primary-text {
   /* Primary Text */
 
   position: static;
@@ -294,7 +294,7 @@
   margin: 6px 0;
 }
 
-.primary-text-2 > h1 {
+.primary-text-2 {
   /* Primary Text */
 
   position: static;
