@@ -1023,36 +1023,17 @@ h4 {
   margin: 12px 0;
 }
 
-.see-project {
-  /* Normal Button/Secondary/Enabled */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  position: absolute;
-  width: 140px;
-  height: 48px;
-  left: 40px;
-
-  /* Primary/B400 */
-
-  border: 1px solid #6070ff;
-  box-sizing: border-box;
-  border-radius: 8px;
-}
 
 .see-project > button {
   /* See Project */
 
   position: static;
-  width: 155px;
-  height: 24px;
-  left: 5px;
+  width: 124px;
+  height: 48px;
   top: 12px;
-  border: none;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
 
   /* Button /Normal */
 
@@ -1062,16 +1043,17 @@ h4 {
   font-size: 16.9px;
   line-height: 24px;
 
-  /* identical to box height, or 141% */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-
   /* Primary/B500 */
 
   color: #396df2;
+}
+
+.see-project > button:hover {
+  background-color: #6070FF;
+}
+
+.see-project > button:active {
+  background-color: #2230D2;
 }
 
 .about-myself {
@@ -1157,13 +1139,7 @@ h4 {
   width: 162px;
   height: 48px;
   left: 0;
-  top: calc(50% - 48px / 2 + 180.5px);
 
-  /* Primary/B400 */
-
-  border: 1px solid #6070ff;
-  box-sizing: border-box;
-  border-radius: 8px;
 
   /* Inside auto layout */
 
@@ -1172,15 +1148,17 @@ h4 {
   margin: 12px 0;
 }
 
-.get-my-resume button {
+.get-my-resume > button {
   /* Get my resume */
 
   position: static;
-  width: 150px;
-  height: 24px;
+  width: 155px;
+  height: 48px;
   left: 12px;
   top: 12px;
-  border: none;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
 
   /* Button /Normal */
 
@@ -1205,7 +1183,15 @@ h4 {
 
   flex: none;
   flex-grow: 0;
-  margin: 0 5px;
+  margin: 12px 0;
+}
+
+.get-my-resume > button:hover {
+  background-color: #6070FF;
+}
+
+.get-my-resume > button:active {
+  background-color: #2230D2;
 }
 
 .skill-list {
