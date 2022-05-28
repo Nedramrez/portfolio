@@ -1230,6 +1230,10 @@
   flex-grow: 0;
 }
 
+.skill-list ul {
+  list-style: none;
+}
+
 .skill-languages {
   /* Frame 7 */
 
