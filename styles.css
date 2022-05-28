@@ -710,7 +710,7 @@
   margin-bottom: 12px;
 }
 
-.tags {
+.tags > ul {
   /* Tags */
 
   /* Auto layout */
@@ -724,6 +724,7 @@
   height: 24px;
   left: 0;
   top: 180px;
+  list-style: none;
 
   /* Inside auto layout */
 
