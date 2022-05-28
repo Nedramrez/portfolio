@@ -436,7 +436,7 @@
   flex-grow: 0;
 }
 
-.tonic {
+h4 {
   /* Project Title */
 
   position: static;
@@ -460,6 +460,7 @@
 
   flex: none;
   flex-grow: 0;
+  margin: 0;
 }
 
 .left-block {
