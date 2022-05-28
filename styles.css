@@ -527,7 +527,7 @@
   flex-grow: 0;
 }
 
-.client > span {
+.client > h6 {
   /* Text */
 
   position: static;
