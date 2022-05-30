@@ -711,27 +711,12 @@ h4 {
   margin-bottom: 12px;
 }
 
-.tags > ul {
-  /* Tags */
 
-  /* Auto layout */
 
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  position: static;
-  width: 203px;
-  height: 24px;
-  left: 0;
-  top: 180px;
+li {
+  float: left;
   list-style: none;
 
-  /* Inside auto layout */
-
-  flex: none;
-  flex-grow: 0;
-  margin: 12px 0;
 }
 
 .tag-html {
