@@ -1407,3 +1407,33 @@ hr.solid {
 
   background: #6070FF;
 }
+form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"]{
+  width: 90%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+input[type="email"]{
+  width: 90%;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+textarea{
+  margin-bottom: 20px;
+}
+button#btn{
+  padding: 1em;
+  border-radius: 8px;
+  color: #6070FF;
+}
