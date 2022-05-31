@@ -155,7 +155,9 @@
   left: 0;
   top: 92px;
   background: #fff;
+/*Put your background image here*/  
 }
+
 
 .social-media-icons {
   /* social media icons */
@@ -1390,4 +1392,18 @@ hr.solid {
 
   border-top: 1px solid #dfe1e6;
   width: 357px;
+}
+
+.contact-me {
+  /* Contact me */
+
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  left: 0px;
+  top: 5410px;
+
+  /* Primary/B400 */
+
+  background: #6070FF;
 }
