@@ -1395,19 +1395,61 @@ hr.solid {
 }
 
 .contact-me {
+  width: 375px;
+  height: 779px;
+}
+
+.blue-rounded {
   /* Contact me */
 
   position: absolute;
   width: 375px;
-  height: 779px;
+  height: 850px;
   left: 0px;
-  top: 5410px;
+  top: 5000px;
 
   /* Primary/B400 */
 
   background: #6070FF;
+  border-radius: 50px 0 0 0;
 }
-form{
+
+.blue-rounded > h2 {
+  /* Header / 2 */
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 103px;
+  /* or 130% */
+
+  text-align: center;
+
+  /* Neutrals/N0 */
+
+  color: #FFFFFF;
+}
+
+.blue-rounded > p {
+  /* Primary Text */
+  padding: 0 20px 0 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+  text-align: center;
+
+  /* Primary/B50 */
+
+  color: #EBEBFF;
+}
+
+form {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -1415,25 +1457,121 @@ form{
   align-items: center;
 }
 
-input[type="text"]{
-  width: 90%;
+#name {
+  width: 327px;
+  height: 48px;
   border-radius: 8px;
   margin-bottom: 20px;
   padding: 10px;
+  border: none;
+
+  /* Input Text */
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+
+  /* or 118% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutral/N800 */
+
+  color: #172B4D;
 }
 
-input[type="email"]{
-  width: 90%;
+#email {
+  width: 327px;
+  height: 48px;
   padding: 10px;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+  border: none;
+    /* Input Text */
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+
+  /* or 118% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutral/N800 */
+
+  color: #172B4D;
 }
 
-textarea{
+#message {
   margin-bottom: 20px;
-}
-button#btn{
-  padding: 1em;
   border-radius: 8px;
-  color: #6070FF;
+  border: none;
+  width: 330px;
+  height: 170px;
+  /* Input Text */
+
+  padding: 15px 0 0 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+
+
+  /* Neutrals/N60 */
+
+  color: #B3BAC5;
+}
+
+#btn {
+  /* Get in touch */
+
+  position: static;
+  width: 140px;
+  height: 48px;
+  left: 12px;
+  top: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding-left: 15px;
+
+  /* Button /Normal */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9px;
+  line-height: 24px;
+
+  /* identical to box height, or 141% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Primary/B500 */
+
+  color: #396df2;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+  margin: 12px 12px;
+}
+
+.blue-rounded > img {
+  position: absolute;
+  width: 250px;
+  left: 130px;
+  top: 21px;
 }
