@@ -1477,7 +1477,7 @@ form {
 
   /* Neutral/N800 */
 
-  color: #172B4D;
+  color: #172b4d;
 }
 
 #email {
@@ -1503,7 +1503,7 @@ form {
 
   /* Neutral/N800 */
 
-  color: #172b4D;
+  color: #172b4d;
 }
 
 #message {
@@ -1516,7 +1516,7 @@ form {
   /* Input Text */
 
   padding: 15px 0 0 15px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1524,7 +1524,7 @@ form {
 
   /* Neutrals/N60 */
 
-  color: #b3bAc5;
+  color: #b3bac5;
 }
 
 #btn {
