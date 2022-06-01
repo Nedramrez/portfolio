@@ -1391,3 +1391,179 @@ hr.solid {
   border-top: 1px solid #dfe1e6;
   width: 357px;
 }
+
+.contact-me {
+  width: 375px;
+  height: 779px;
+}
+
+.blue-rounded {
+  /* Contact me */
+
+  position: absolute;
+  width: 375px;
+  height: 850px;
+  left: 0;
+  top: 5000px;
+
+  /* Primary/B400 */
+
+  background: #6070ff;
+  border-radius: 50px 0 0 0;
+}
+
+.blue-rounded > h2 {
+  /* Header / 2 */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 103px;
+
+  /* or 130% */
+
+  text-align: center;
+
+  /* Neutrals/N0 */
+
+  color: #fff;
+}
+
+.blue-rounded > p {
+  /* Primary Text */
+  margin: 0 20px 0 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+
+  /* Primary/B50 */
+
+  color: #ebebff;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#name {
+  height: 48px;
+  border-radius: 8px;
+  margin: 20px 24px 20px 24px;
+  padding: 10px;
+  border: none;
+
+  /* Input Text */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+
+  /* or 118% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutral/N800 */
+
+  color: #172b4d;
+}
+
+#email {
+  height: 48px;
+  margin: 0 24px 20px 24px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  border: none;
+
+  /* Input Text */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+
+  /* or 118% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutral/N800 */
+
+  color: #172b4d;
+}
+
+#message {
+  border-radius: 8px;
+  border: none;
+  margin: 0 24px 20px 24px;
+  height: 170px;
+
+  /* Input Text */
+
+  padding: 15px 0 0 15px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* Neutrals/N60 */
+
+  color: #b3bac5;
+}
+
+#btn {
+  /* Get in touch */
+
+  position: static;
+  width: 140px;
+  height: 48px;
+  left: 12px;
+  top: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  /* Button /Normal */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9px;
+  line-height: 24px;
+
+  /* identical to box height, or 141% */
+
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.03em;
+
+  /* Primary/B500 */
+
+  color: #396df2;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+  margin: 0 24px;
+}
+
+.blue-rounded > img {
+  position: absolute;
+  width: 250px;
+  left: 130px;
+  top: 21px;
+}
