@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-## Portfolio. Project 2 : Mobile version. Works and About me sections.
+## Portfolio. Project 3 : Mobile version. Add Contact form and finish mobile version.
 
->  Second stage in the process of creating my portfolio website.
+>  Third stage in the process of creating my portfolio website.
 
 ## Built With
 
