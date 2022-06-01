@@ -1433,7 +1433,7 @@ hr.solid {
 
 .blue-rounded > p {
   /* Primary Text */
-  padding: 0 20px 0 20px;
+  margin: 0 20px 0 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1451,14 +1451,13 @@ form {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 
 #name {
-  width: 327px;
   height: 48px;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin: 20px 24px 20px 24px;
   padding: 10px;
   border: none;
 
@@ -1481,8 +1480,8 @@ form {
 }
 
 #email {
-  width: 327px;
   height: 48px;
+  margin: 0 24px 20px 24px;
   padding: 10px;
   border-radius: 8px;
   margin-bottom: 18px;
@@ -1510,7 +1509,7 @@ form {
   margin-bottom: 20px;
   border-radius: 8px;
   border: none;
-  width: 330px;
+  margin: 0 24px 20px 24px;
   height: 170px;
 
   /* Input Text */
@@ -1538,7 +1537,6 @@ form {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
-  padding-left: 15px;
 
   /* Button /Normal */
 
@@ -1563,7 +1561,7 @@ form {
 
   flex: none;
   flex-grow: 0;
-  margin: 12px 12px;
+  margin: 0 24px;
 }
 
 .blue-rounded > img {
