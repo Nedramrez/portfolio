@@ -1567,3 +1567,11 @@ form {
   left: 130px;
   top: 21px;
 }
+
+@media (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+
+  
+}
