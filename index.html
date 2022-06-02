@@ -15,15 +15,26 @@
       <div class="status-bars">
       </div>
       <div class="app-bar">
-        <div class="toolbar">
+        <div class="toolbar-mobile">
+          <div class="logo">
+            <span>My Logo</span>
+          </div>
           <div class="normal-button">
             <img class="burger" src="assets/burger.svg" alt="Menu icon">
-            </div>
+          </div>
+        </div>
+        <div class="toolbar-desktop">
           <div class="logo">
-              <span>My Logo</span>
+            <span>My Logo</span>
           </div>
-          <div class="toolbar-container">
-          </div>
+          <nav>
+            <ul class="menu">
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
         </div>
       </div>
     </header>
@@ -51,6 +62,7 @@
         <!--Images should be in Headline section. After that check CSS-->
         <img class="header-shapes" src="assets/bg.png" alt="header-shapes">
         <img class="header-background" src="assets/header-background-mobile.svg" alt="background-image">
+        <section id="portfolio">
         <div class="works"> <!--Change it to section-->
           <div class="card-works-1">
             <div class="snapshot-portfolio">
@@ -263,7 +275,8 @@
             </div>
           </div>
         </div>
-        <section class="about-myself">
+        </section>
+        <section class="about-myself" id="about">
           <div class="top">
             <div class="primary-text-5">
               <h1>About <br>
@@ -342,7 +355,7 @@
           </div>
         </section>
         </main>
-        <section class="contact-me">
+        <section class="contact-me" id="contact">
           <footer>
             <div class="blue-rounded">
               <img src="assets/contact-form.svg" alt="Contact form background image">

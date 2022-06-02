@@ -1,64 +1,19 @@
-.mobile-main {
-  /* Template 1-Mobile-Main */
-
-  position: relative;
-  width: 375px;
-  height: 5410px;
-
-  /* Neutrals/N10 */
-  margin: 0;
-}
-
-.status-bars {
-  /* Bars/Status Bars/ Light */
-
-  position: absolute;
-  width: 375px;
-  height: 44px;
-  left: 0;
-  top: 0;
-}
-
 .app-bar {
-  /* App Bar - Compact - Dark - iOS */
-
-  position: absolute;
-  width: 375px;
   height: 92px;
   left: 0;
   top: 0;
 }
 
-.toolbar {
-  /* Toolbar - Dark - Compact */
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 44px;
-  bottom: 0;
-
-  /* Auto layout */
-
+.toolbar-mobile {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .normal-button {
-  /* Normal Button/Tertiary/Enabled */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 8px;
-  position: absolute;
   width: 24px;
   height: 24px;
   right: 24px;
-  top: calc(50% - 40px / 2);
   border-radius: 8px;
 }
 
@@ -79,19 +34,10 @@
 }
 
 .logo {
-  /* Logo Placeholder */
-
-  /* Auto layout */
-
-  display: block;
-  flex-direction: row;
-  align-items: center;
   padding: 10px 12px;
-  position: absolute;
   width: 76px;
   height: 20px;
   left: 12px;
-  top: calc(50% - 40px / 2);
 }
 
 .logo > span {
@@ -1268,7 +1214,7 @@ button:active {
 }
 
 .frame-11 {
-  /* Langguage List */
+  /* Language List */
 
   /* Auto layout */
 
@@ -1568,10 +1514,47 @@ form {
   top: 21px;
 }
 
+.toolbar-desktop {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .burger {
     display: none;
   }
 
-  
+  .toolbar-mobile {
+    display: none;
+  }
+
+  .toolbar-desktop {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  nav {
+    padding: 10px;
+  }
+
+  .menu {
+    display: inline;
+    padding: 16px 142px 16px 0;
+  }
+
+  .menu > li {
+  display: inline;
+  justify-content: space-between;
+  padding: 8px;
+  width: 63px;
+  height: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+  }
+
+
 }
