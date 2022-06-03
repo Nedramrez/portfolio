@@ -97,13 +97,24 @@
   border-radius: 5px;
 }
 
-.social-list {
-  list-style-type: none;
-  margin: 0;
+.social-list li {
+  display: inline-block;
   padding: 0;
 }
 
-.social-list li {
+.social-list-2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 64%;
+}
+
+.social-list-2 img {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.social-list-2 li {
   display: inline-block;
   padding: 0;
 }
@@ -117,15 +128,13 @@
   color: #7f8cff;
 }
 
-.hello-text {
+.let-s-connect-2 {
+  width: 64%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  flex: none;
-  flex-grow: 0;
+  color: #7f8cff;
 }
 
 main {
@@ -207,22 +216,6 @@ main {
   margin: 88px 0;
 }
 
-.snp-p-img {
-  position: static;
-  width: 295px;
-  height: 220px;
-  left: 16px;
-  top: 16px;
-  background: url(blog_drbl_4x.png);
-  border-radius: 8px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  flex-grow: 0;
-  margin: 12px 0;
-}
-
 .primary-text-3 {
   display: flex;
   flex-direction: column;
@@ -232,7 +225,7 @@ main {
   width: 295px;
   height: 80px;
   left: 0;
-  top: calc(50% - 80px / 2 - 104px);
+
 }
 
 h4 {
@@ -720,7 +713,6 @@ h4 {
   align-items: center;
   padding: 16px;
   position: static;
-  width: 327px;
   height: 596px;
   left: 0;
   top: 754px;
@@ -752,7 +744,6 @@ h4 {
   align-items: center;
   padding: 16px;
   position: static;
-  width: 327px;
   height: 596px;
   left: 0;
   top: 1438px;
@@ -784,7 +775,6 @@ h4 {
   align-items: center;
   padding: 16px;
   position: static;
-  width: 327px;
   height: 596px;
   left: 0;
   top: 2078px;
@@ -847,53 +837,21 @@ h4 {
 }
 
 .about-myself {
-  /* About My Self */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 114px 24px;
-  position: absolute;
-  width: 327px;
-  height: 897px;
-  left: 0;
-  top: 3800px;
-}
-
-.top {
-  /* TOP */
-
-  /* Auto layout */
-
+  height: 409px;
+  top: 92px;
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0;
-  position: static;
   width: 327px;
-  height: 409px;
-  left: 24px;
-  top: 114px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  flex-grow: 0;
 }
 
-.primary-text-5 > h1 {
+.about {
   /* Primary Text */
 
   position: static;
-  width: 327px;
   height: 75px;
-  left: 0;
-  top: 0;
-
-  /* Header / 2 */
-
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -917,6 +875,18 @@ h4 {
   margin: 12px 0;
 }
 
+.about-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  flex-grow: 0;
+  width: 327px;
+}
+
 .normal-button-secondary {
   /* Normal Button/Secondary/Enabled */
 
@@ -937,42 +907,18 @@ h4 {
   margin: 12px 0;
 }
 
-.get-my-resume > button {
+.get-my-resume {
   /* Get my resume */
 
-  position: static;
   width: 155px;
   height: 48px;
-  left: 12px;
-  top: 12px;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
-
-  /* Button /Normal */
-
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16.9px;
-  line-height: 24px;
-
-  /* identical to box height, or 141% */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  /* Primary/B500 */
-
   color: #396df2;
-
-  /* Inside auto layout */
-
-  flex: none;
-  flex-grow: 0;
-  margin: 12px 0;
 }
 
 button:hover {
@@ -1014,7 +960,7 @@ button:active {
 
   /* Frame 8 */
 
-  position: static;
+
   width: 327px;
   height: 72px;
   left: 0;
@@ -1033,7 +979,7 @@ button:active {
 .languages {
   /* Languages */
 
-  position: absolute;
+
   height: 24px;
   left: 12px;
   right: 78px;
@@ -1091,7 +1037,6 @@ button:active {
 .skill-frameworks {
   /* Frame 8 */
 
-  position: static;
   width: 327px;
   height: 72px;
   left: 0;
@@ -1110,7 +1055,7 @@ button:active {
 .frameworks {
   /* Frameworks */
 
-  position: absolute;
+
   height: 24px;
   left: 12px;
   right: 78px;
@@ -1147,7 +1092,6 @@ button:active {
 .skill-skills {
   /* Frame 9 */
 
-  position: static;
   width: 327px;
   height: 72px;
   left: 0;
@@ -1163,7 +1107,6 @@ button:active {
 .skills {
   /* Skills */
 
-  position: absolute;
   height: 24px;
   left: 12px;
   right: 78px;
@@ -1460,7 +1403,6 @@ form {
 
   .social-list {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     width: 64%;
     margin: 0 16% 0 16%;
@@ -1470,19 +1412,115 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 24px;
-    left: 24px;
-    top: 114px;
     background: #fff;
     border: 1px solid #dfe1e6;
     box-sizing: border-box;
     border-radius: 16px;
-    flex: none;
-    flex-grow: 0;
-    margin: 88px 0;
+  }
+  
+  .card-works-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+
+  .card-works-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+
+  .card-works-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+
+  .snp-p-img {
+    width: 544px;
+    height: 448px;
+    padding: 24px;
+  }
+
+  .left-block {
+    padding: 24px;
   }
 
   .works {
-    padding: 142px;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    width: 1440px;
   }
+
+  .about-myself {
+    padding: 114px 24px;
+    top: 92px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 1440px;
+  }
+
+  .about-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .skill-list {
+    /* Skill List */
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+    height: 464.15px;
+    left: 24px;
+    top: 547px;
+    flex-grow: 0;
+  }
+
+  .social-list-2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 64%;
+  }
+
+  .social-list-2 li {
+    display: inline-block;
+    padding: 0;
+  }
+
+  .social-list-2 img {
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .let-s-connect-2 {
+    width: 64%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7f8cff;
+  }
+  
 }
