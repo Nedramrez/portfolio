@@ -225,7 +225,6 @@ main {
   width: 295px;
   height: 80px;
   left: 0;
-
 }
 
 h4 {
@@ -960,7 +959,6 @@ button:active {
 
   /* Frame 8 */
 
-
   width: 327px;
   height: 72px;
   left: 0;
@@ -979,7 +977,6 @@ button:active {
 
 .languages {
   /* Languages */
-
 
   height: 24px;
   left: 12px;
@@ -1055,7 +1052,6 @@ button:active {
 
 .frameworks {
   /* Frameworks */
-
 
   height: 24px;
   left: 12px;
@@ -1353,7 +1349,7 @@ form {
     padding: 8px;
     width: 63px;
     height: 20px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1390,7 +1386,6 @@ form {
     font-weight: 400;
     font-size: 16px;
     color: #344563;
-    flex: center;
     flex-grow: 0;
     width: 64%;
     margin: 0 16% 0 16%;
@@ -1423,7 +1418,7 @@ form {
     box-sizing: border-box;
     border-radius: 16px;
   }
-  
+
   .card-works-2 {
     display: flex;
     flex-direction: row;
@@ -1495,7 +1490,7 @@ form {
     /* Skill List */
   
     /* Auto layout */
-  
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1539,18 +1534,19 @@ form {
     justify-content: center;
     align-items: center;
   }
-  
+
   .blue-rounded {
     /* Contact me */
     height: 850px;
+
     /* Primary/B400 */
-  
+
     background: #6070ff;
     border-radius: 50px 0 0 0;
     left: 10%;
     width: 80%;
   }
-  
+
   .blue-rounded > img {
     position: absolute;
     width: 250px;
@@ -1560,23 +1556,23 @@ form {
 
   .blue-rounded > h2 {
     /* Header / 2 */
-  
+
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     margin-top: 103px;
-  
+
     /* or 130% */
-  
+
     text-align: center;
-  
+
     /* Neutrals/N0 */
-  
+
     color: #fff;
   }
-  
+
   .blue-rounded > p {
     /* Primary Text */
     margin: 0 20px 0 20px;
@@ -1588,11 +1584,12 @@ form {
     text-align: center;
     width: 34%;
     padding: 0 33% 0 33%;
+
     /* Primary/B50 */
-  
+
     color: #ebebff;
   }
-  
+
   form {
     width: 100%;
     display: flex;
