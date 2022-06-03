@@ -971,6 +971,7 @@ button:active {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   flex: none;
   flex-grow: 0;
   margin: 0 0;
@@ -1006,7 +1007,6 @@ button:active {
   /* Auto layout */
 
   padding: 8px;
-  position: absolute;
   width: 40px;
   height: 40px;
   right: 26px;
@@ -1047,6 +1047,7 @@ button:active {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   flex: none;
   flex-grow: 0;
   margin: 0 0;
@@ -1085,7 +1086,6 @@ button:active {
   flex-direction: row;
   align-items: center;
   padding: 8px;
-  position: absolute;
   right: 17px;
 }
 
@@ -1099,6 +1099,9 @@ button:active {
 
   /* Inside auto layout */
 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex: none;
   flex-grow: 0;
   margin: 0 0;
@@ -1143,10 +1146,10 @@ hr.solid {
   /* Contact me */
 
   position: absolute;
-  width: 375px;
+  width: 100%;
   height: 850px;
   left: 0;
-  top: 5000px;
+  top: 4600px;
 
   /* Primary/B400 */
 
@@ -1308,6 +1311,8 @@ form {
   width: 250px;
   left: 130px;
   top: 21px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .toolbar-desktop {
@@ -1412,6 +1417,7 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     background: #fff;
     border: 1px solid #dfe1e6;
     box-sizing: border-box;
@@ -1422,6 +1428,7 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     background: #fff;
     border: 1px solid #dfe1e6;
     box-sizing: border-box;
@@ -1432,6 +1439,7 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     background: #fff;
     border: 1px solid #dfe1e6;
     box-sizing: border-box;
@@ -1442,6 +1450,7 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     background: #fff;
     border: 1px solid #dfe1e6;
     box-sizing: border-box;
@@ -1461,8 +1470,7 @@ form {
   .works {
     display: flex;
     flex-direction: column;
-    padding: 10%;
-    width: 1440px;
+    width: 1000px;
   }
 
   .about-myself {
@@ -1471,8 +1479,9 @@ form {
     background: #fff;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    width: 1440px;
+    justify-content: center;
+    width: 80%;
+    left: 10%;
   }
 
   .about-block {
@@ -1522,5 +1531,73 @@ form {
     font-size: 16px;
     color: #7f8cff;
   }
+
+  .contact-me {
+    margin-top: 20px;
+    height: 779px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
+  .blue-rounded {
+    /* Contact me */
+    height: 850px;
+    /* Primary/B400 */
+  
+    background: #6070ff;
+    border-radius: 50px 0 0 0;
+    left: 10%;
+    width: 80%;
+  }
+  
+  .blue-rounded > img {
+    position: absolute;
+    width: 250px;
+    left: 1000px;
+    top: 21px;
+  }
+
+  .blue-rounded > h2 {
+    /* Header / 2 */
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 103px;
+  
+    /* or 130% */
+  
+    text-align: center;
+  
+    /* Neutrals/N0 */
+  
+    color: #fff;
+  }
+  
+  .blue-rounded > p {
+    /* Primary Text */
+    margin: 0 20px 0 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    width: 34%;
+    padding: 0 33% 0 33%;
+    /* Primary/B50 */
+  
+    color: #ebebff;
+  }
+  
+  form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 }
