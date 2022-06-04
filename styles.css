@@ -1665,4 +1665,8 @@ form {
     background-color: #2230d2;
     color: #dfe1e6;
   }
+
+  a {
+    text-decoration: none;
+  }
 }
