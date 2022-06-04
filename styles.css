@@ -1488,7 +1488,7 @@ form {
 
   .skill-list {
     /* Skill List */
-  
+
     /* Auto layout */
 
     display: flex;
@@ -1543,8 +1543,7 @@ form {
 
     background: #6070ff;
     border-radius: 50px 0 0 0;
-    left: 10%;
-    width: 80%;
+    width: 100%;
   }
 
   .blue-rounded > img {
