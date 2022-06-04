@@ -15,43 +15,46 @@
       <div class="status-bars">
       </div>
       <div class="app-bar">
-        <div class="toolbar">
+        <div class="toolbar-mobile">
+          <div class="logo">
+            <span>My Logo</span>
+          </div>
           <div class="normal-button">
-            <img class="burger" src="assets/burger.svg" alt="Menu icon.">
-            </div>
-            <div class="logo">
-              <span>My Logo</span>
-            </div>
-            <div class="toolbar-container">
-            </div>
+            <img class="burger" src="assets/burger.svg" alt="Menu icon">
           </div>
         </div>
+        <div class="toolbar-desktop">
+          <div class="logo">
+            <span>My Logo</span>
+          </div>
+          <nav>
+            <ul class="menu">
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <main>
-    <section class="headline">
-          <h1 class="primary-text-2">I'm Zermarden <br>
-          Glad to see <br>
-          you!</h1>
-          <p class="primary-text">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-          <div class="social-media">
-            <div class="supporting-text">
-              <span>LET'S CONNECT!</span>
-            </div>
-          </div>
-          <div class="social-media-icons">
-            <ul class="social-media-icons-list">
-              <li><a href="#"><img src="assets/twitter.svg" alt="Twitter" width="20" height="20"></a></li>
-              <li><a href="#"><img src="assets/linkedin.svg" alt="Linkedin" width="20" height="20"></a></li>
-              <li><a href="#"><img src="assets/m.svg" alt="Medium" width="20" height="16"></a></li>
-              <li><a href="#"><img src="assets/git.svg" alt="GitHub" width="18" height="20"></a></li>
-              <li><a href="#"><img src="assets/finger.svg" alt="Peace" width="15" height="20"></a></li>
-          </ul>
-          </div>
-        </section>
-        <!--Images should be in Headline section. After that check CSS-->
+      <section class="headline">
+        <h1 class="hello">I'm Zermarden<br>
+          Glad to see you!</h1>
+        <p class="hello-text">I’m a software developer! I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a project you need 
+            coded, don’t hesitate to contact me. </p>
+        <h4 class="let-s-connect">LET'S CONNECT!</h4>
+        <ul class="social-list">
+          <li><a href="#"><img src="assets/twitter.svg" alt="Twitter" width="20" height="20"></a></li>
+          <li><a href="#"><img src="assets/linkedin.svg" alt="Linkedin" width="20" height="20"></a></li>
+          <li><a href="#"><img src="assets/m.svg" alt="Medium" width="20" height="16"></a></li>
+          <li><a href="#"><img src="assets/git.svg" alt="GitHub" width="18" height="20"></a></li>
+          <li><a href="#"><img src="assets/finger.svg" alt="Peace" width="15" height="20"></a></li>
+        </ul>
         <img class="header-shapes" src="assets/bg.png" alt="header-shapes">
-        <img class="header-background" src="assets/header-background-mobile.svg" alt="background-image">
-        <div class="works"> <!--Change it to section-->
+      </section>
+      <section class="works" id="portfolio">
           <div class="card-works-1">
             <div class="snapshot-portfolio">
               <img class="snp-p-img" src="assets/tonic.svg" width="295" height="220" alt="shapshot-portfolio">
@@ -262,36 +265,23 @@
               </div>
             </div>
           </div>
-        </div>
-        <section class="about-myself">
-          <div class="top">
-            <div class="primary-text-5">
-              <h1>About <br>
-              Myself</h1>
-            </div>
-              <p class="primary-text">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            <div class="social-media">
-              <div class="supporting-text">
-                <span>LET'S CONNECT!</span>
-              </div>
-            </div>
-            <div class="social-media-icons">
-              <ul class="social-media-icons-list">
-                <li><a href="#"><img src="assets/twitter.svg" alt="Twitter" width="20" height="20"></a></li>
-                <li><a href="#"><img src="assets/linkedin.svg" alt="Linkedin" width="20" height="20"></a></li>
-                <li><a href="#"><img src="assets/m.svg" alt="Medium" width="20" height="16"></a></li>
-                <li><a href="#"><img src="assets/git.svg" alt="GitHub" width="18" height="20"></a></li>
-                <li><a href="#"><img src="assets/finger.svg" alt="Peace" width="15" height="20"></a></li>
-              </ul>
-            </div>
-            <div class="normal-button-secondary">
-              <div class="get-my-resume">
-                <button>Get my resume</button>
-              </div>
-            </div>
+        </section>
+        <section class="about-myself" id="about">
+          <div class="about-block">
+            <h1 class="about">About <br> myself<br></h1>
+            <p class="about-text">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+            <h4 class="let-s-connect-2">LET'S CONNECT!</h4>
+            <ul class="social-list-2">
+              <li><a href="#"><img src="assets/twitter.svg" alt="Twitter" width="20" height="20"></a></li>
+              <li><a href="#"><img src="assets/linkedin.svg" alt="Linkedin" width="20" height="20"></a></li>
+              <li><a href="#"><img src="assets/m.svg" alt="Medium" width="20" height="16"></a></li>
+              <li><a href="#"><img src="assets/git.svg" alt="GitHub" width="18" height="20"></a></li>
+              <li><a href="#"><img src="assets/finger.svg" alt="Peace" width="15" height="20"></a></li>
+            </ul>
+            <button class="get-my-resume">Get my resume</button>
           </div>
           <div class="skill-list">
-            <ul>
+            <ul class="skill-ul">
               <li>
                 <div class="skill-languages">
                   <div class="languages">
@@ -304,7 +294,7 @@
                     </div>
                   </div>
                   <div class="languages-list">
-                    <ul class="social-media-icons-list">
+                    <ul class="social-list">
                       <li><a href="#"><img src="assets/frame-9.svg" alt="Twitter" width="303" height="66"></a></li>
                       <li><a href="#"><img src="assets/frame-10.svg" alt="Linkedin" width="303" height="66"></a></li>
                       <li><a href="#"><img src="assets/frame-11.svg" alt="Medium" width="303" height="66"></a></li>
@@ -342,16 +332,15 @@
           </div>
         </section>
         </main>
-        <section class="contact-me">
+        <section class="contact-me" id="contact">
           <footer>
             <div class="blue-rounded">
-              <img src="assets/contact-form.svg" alt="Contact form background image">
               <h2 class="contact-heading">Contact me</h2>
               <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
               <form action="https://formspree.io/f/xgedddaq" method="post">
                 <input id="name" type="text" name="name" value="Yeremias" maxlength="30" required><br>
                 <input id="email" type="email" name="email" value="natajayanj14@gmail.com" required><br>
-                <textarea id="message" name="message" cols="50" rows="10" placeholder="Write your message here" maxlength="500" required></textarea>
+                <textarea id="message" name="message" cols="25" rows="20" placeholder="Write your message here" maxlength="500" required></textarea>
                 <input type="submit" id="btn" value="Get in touch">
               </form>
             </div>
