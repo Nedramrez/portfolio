@@ -1318,6 +1318,10 @@ form {
 }
 
 @media (min-width: 768px) {
+  body {
+    background-color: #e5e5e5;
+  }
+
   .burger {
     display: none;
   }
