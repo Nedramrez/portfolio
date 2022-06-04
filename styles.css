@@ -922,10 +922,12 @@ h4 {
 
 button:hover {
   background-color: #6070ff;
+  color: #dfe1e6;
 }
 
 button:active {
   background-color: #2230d2;
+  color: #dfe1e6;
 }
 
 .skill-list {
@@ -1595,5 +1597,72 @@ form {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+  }
+
+  #message {
+    border-radius: 8px;
+    border: none;
+    margin: 0 24px 20px 24px;
+    height: 170px;
+
+    /* Input Text */
+
+    padding: 15px 0 0 15px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+
+    /* Neutrals/N60 */
+
+    color: #b3bac5;
+  }
+
+  #btn {
+    /* Get in touch */
+
+    position: static;
+    width: 140px;
+    height: 48px;
+    left: 12px;
+    top: 12px;
+    border: 1px solid #6070ff;
+    box-sizing: border-box;
+    border-radius: 8px;
+  
+    /* Button /Normal */
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.9px;
+    line-height: 24px;
+  
+    /* identical to box height, or 141% */
+  
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.03em;
+  
+    /* Primary/B500 */
+  
+    color: #396df2;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    flex-grow: 0;
+    margin: 0 24px;
+  }
+
+  #btn:hover {
+    background-color: #6070ff;
+    color:#dfe1e6;
+  }
+
+  #btn:active {
+    background-color: #2230d2;
+    color: #dfe1e6;
   }
 }
