@@ -1365,6 +1365,7 @@ form {
   }
 
   .headline {
+    background-color: #fff;
     background: url(assets/Header\ bg.svg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
