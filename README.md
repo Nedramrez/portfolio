@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-## Portfolio. Project 3 : Mobile version. Add Contact form and finish mobile version.
+## Portfolio. Project 4 : Desktop version.
 
 >  Third stage in the process of creating my portfolio website.
 
