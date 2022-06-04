@@ -1382,6 +1382,27 @@ form {
     color: #172b4d;
     width: 64%;
     margin: 10% 16% 0 16%;
+    animation-name: example;
+    animation-duration: 8s;
+  }
+
+  @keyframes example {
+    0% {
+      background-color: rgba(14, 173, 176, 0.914);
+      color: black;
+    }
+
+    25% {
+      background-color: #e7e12c;
+      color: #1c1a19;
+    }
+
+    50% {
+      background-color: rgb(228, 112, 112);
+      color: black;
+    }
+
+    100% { background-color: rgb(43, 57, 182); }
   }
 
   .hello-text {
@@ -1474,7 +1495,6 @@ form {
     display: flex;
     flex-direction: column;
     width: 1000px;
-
   }
 
   .about-myself {
