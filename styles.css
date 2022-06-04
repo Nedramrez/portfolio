@@ -1383,27 +1383,6 @@ form {
     width: 64%;
     margin: 10% 16% 0 16%;
     text-decoration: none;
-    animation-name: example;
-    animation-duration: 8s;
-  }
-
-  @keyframes example {
-    0% {
-      background-color: rgb(156, 198, 30);
-      color: black;
-    }
-
-    25% {
-      background-color: #ff6b00;
-      color: #1c1a19;
-    }
-
-    50% {
-      background-color: rgb(0, 200, 255);
-      color: black;
-    }
-
-    100% { background-color: rgb(227, 70, 73); }
   }
 
   .hello-text {
