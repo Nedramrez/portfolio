@@ -1148,11 +1148,13 @@ hr.solid {
   height: 850px;
   left: 0;
   top: 4600px;
+  margin: 0;
 
   /* Primary/B400 */
 
   background: #6070ff;
   border-radius: 50px 0 0 0;
+  background-image: url(assets/desktop-contact-bg.svg);
 }
 
 .blue-rounded > h2 {
@@ -1302,15 +1304,6 @@ form {
   flex: none;
   flex-grow: 0;
   margin: 0 24px;
-}
-
-.blue-rounded > img {
-  position: absolute;
-  width: 250px;
-  left: 130px;
-  top: 21px;
-  display: flex;
-  justify-content: flex-start;
 }
 
 .toolbar-desktop {
@@ -1549,6 +1542,9 @@ form {
     background: #6070ff;
     border-radius: 50px 0 0 0;
     width: 100%;
+    background-image: url(assets/desktop-contact-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .blue-rounded > img {
