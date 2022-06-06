@@ -5,13 +5,13 @@
 
 >  Fifth stage in the process of creating my portfolio website.
 
-## Built With
-
--  HTML, CSS
-
 ## Live Demo 
 
 [Live Demo Link](https://nedramrez.github.io/portfolio/)
+
+## Built With
+
+-  HTML, CSS
 
 ## Authors
 
@@ -23,7 +23,7 @@
 
 ## 🤝 Contributing
 
-I want to say thank you to all my learning partners, morning session and standup teams!
+Contributions, issues, and feature requests are welcome!
 
 ## Show your support
 
@@ -31,7 +31,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone who was patient enough while helping me.
+- Hat tip to anyone who was patient enough while helping me:
+
+[@peterdtitan](https://github.com/peterdtitan)
 
 ## 📝 License
 
