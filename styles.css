@@ -1161,7 +1161,7 @@ hr.solid {
   background-image: url(assets/desktop-contact-bg.svg);
 }
 
-.blue-rounded > h2 {
+.blue-rounded > h3 {
   /* Header / 2 */
 
   font-family: 'Poppins', sans-serif;
@@ -1202,10 +1202,17 @@ form {
   flex-direction: column;
 }
 
+label {
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+  color: black;
+}
+
 #name {
   height: 48px;
   border-radius: 8px;
-  margin: 20px 24px 20px 24px;
+  margin: 0 24px 20px 24px;
   padding: 10px;
   border: none;
 
@@ -1566,7 +1573,7 @@ form {
 
   .blue-rounded {
     /* Contact me */
-    height: 850px;
+    height: auto;
 
     /* Primary/B400 */
 
