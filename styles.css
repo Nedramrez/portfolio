@@ -64,7 +64,7 @@ body {
 
   /* Primary/B400 */
 
-  color: #6070ff;
+  color: #0016db;
 
   /* Inside auto layout */
 
@@ -129,7 +129,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  color: #7f8cff;
+  color: #0f27ff;
 }
 
 .let-s-connect-2 {
@@ -231,7 +231,7 @@ main {
   left: 0;
 }
 
-h4 {
+h5 {
   /* Project Title */
 
   position: static;
@@ -396,7 +396,7 @@ h4 {
 
   /* Neutrals/N100 */
 
-  color: #7a869a;
+  color: #4b5363;
 
   /* Inside auto layout */
 
@@ -468,7 +468,7 @@ h4 {
 
   /* Neutrals/N100 */
 
-  color: #7a869a;
+  color: #485260;
 
   /* Inside auto layout */
 
@@ -579,7 +579,7 @@ h4 {
 
   /* Primary/B400 */
 
-  color: #6070ff;
+  color: #0018f0;
 
   /* Inside auto layout */
 
@@ -638,7 +638,7 @@ h4 {
 
   /* Primary/B400 */
 
-  color: #6070ff;
+  color: #0018f0;
 
   /* Inside auto layout */
 
@@ -697,7 +697,7 @@ h4 {
 
   /* Primary/B400 */
 
-  color: #6070ff;
+  color: #0018f0;
 
   /* Inside auto layout */
 
@@ -836,7 +836,7 @@ h4 {
 
   /* Primary/B500 */
 
-  color: #396df2;
+  color: #0c3cb6;
 }
 
 .about-myself {
@@ -921,7 +921,7 @@ h4 {
   font-style: normal;
   font-weight: 500;
   font-size: 16.9px;
-  color: #396df2;
+  color: #0c3fc0;
 }
 
 button:hover {
@@ -1161,7 +1161,7 @@ hr.solid {
   background-image: url(assets/desktop-contact-bg.svg);
 }
 
-.blue-rounded > h2 {
+.blue-rounded > h3 {
   /* Header / 2 */
 
   font-family: 'Poppins', sans-serif;
@@ -1202,10 +1202,17 @@ form {
   flex-direction: column;
 }
 
+label {
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+  color: black;
+}
+
 #name {
   height: 48px;
   border-radius: 8px;
-  margin: 20px 24px 20px 24px;
+  margin: 0 24px 20px 24px;
   padding: 10px;
   border: none;
 
@@ -1566,7 +1573,7 @@ form {
 
   .blue-rounded {
     /* Contact me */
-    height: 850px;
+    height: auto;
 
     /* Primary/B400 */
 
@@ -1585,7 +1592,7 @@ form {
     top: 21px;
   }
 
-  .blue-rounded > h2 {
+  .blue-rounded > h3 {
     /* Header / 2 */
 
     font-family: 'Poppins', sans-serif;
