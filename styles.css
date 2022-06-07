@@ -231,7 +231,7 @@ main {
   left: 0;
 }
 
-h4 {
+h5 {
   /* Project Title */
 
   position: static;
@@ -1585,7 +1585,7 @@ form {
     top: 21px;
   }
 
-  .blue-rounded > h2 {
+  .blue-rounded > h3 {
     /* Header / 2 */
 
     font-family: 'Poppins', sans-serif;
