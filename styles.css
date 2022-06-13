@@ -88,6 +88,10 @@ body {
   background: #181e25;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 .headline {
   /* Auto layout */
 
