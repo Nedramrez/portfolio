@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
 }
 
 .app-bar {
@@ -7,8 +12,8 @@ body {
 }
 
 .toolbar-mobile {
-  display: flex;
-  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
 }
 
 .normal-button {
@@ -22,11 +27,10 @@ body {
 .burger {
   /* Icons/Icon - Menu */
 
-  position: static;
-  left: 20%;
-  right: 20%;
-  top: 20%;
-  bottom: 20%;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 0;
 
   /* Inside auto layout */
 
@@ -40,9 +44,10 @@ body {
   width: 76px;
   height: 20px;
   left: 12px;
+  text-decoration: none;
 }
 
-.logo > span {
+.logo {
   /* My Logo */
 
   position: static;
@@ -88,8 +93,43 @@ body {
   background: #181e25;
 }
 
-.mobile-menu {
+#mobMenu {
   display: none;
+}
+
+.mobMenu-close {
+  height: 50px;
+}
+
+.close-icon {
+  padding: 5% 0 0 85%;
+  width: 20px;
+}
+
+.mobile-menu-items {
+  backdrop-filter: blur(5px);
+  mix-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  top: 0;
+  background-color: #6070ff;
+  position: fixed;
+  width: 100%;
+}
+
+.mobile-menu a {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+color: white;
+display: block;
+display: flex;
+flex-direction: column;
+text-decoration: none;
+padding: 16px;
 }
 
 .headline {
@@ -98,6 +138,10 @@ body {
   padding: 114px 24px;
   top: 92px;
   background: #fff;
+  background: url(assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
 }
 
 .social-list img {
@@ -1328,6 +1372,7 @@ label {
 @media (min-width: 768px) {
   body {
     background-color: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
   }
 
   .burger {
@@ -1348,8 +1393,9 @@ label {
     padding: 10px;
   }
 
-  .logo span {
+  .logo {
     padding: 0 142px;
+    text-decoration: none;
   }
 
   .menu {
