@@ -1,95 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
 }
 
-.app-bar {
-  height: 92px;
+a {
+  text-decoration: none;
 }
 
-.toolbar-mobile {
+header {
+  padding: 0 20px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
 }
 
-.normal-button {
-  padding: 8px;
-  width: 24px;
-  height: 24px;
-  right: 24px;
-  border-radius: 8px;
-}
-
-.burger {
-  /* Icons/Icon - Menu */
-
-  position: static;
-  left: 20%;
-  right: 20%;
-  top: 20%;
-  bottom: 20%;
-
-  /* Inside auto layout */
-
-  flex: none;
-  flex-grow: 0;
-  margin: 0 0;
-}
-
-.logo {
-  padding: 10px 12px;
-  width: 76px;
-  height: 20px;
-  left: 12px;
-}
-
-.logo > span {
-  /* My Logo */
-
-  position: static;
-  width: 76px;
-  height: 20px;
-  left: 12px;
-  top: 10px;
-  font-family: 'Poppins', sans-serif;
+#logo {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 20px;
-
-  /* identical to box height, or 111% */
-
   display: flex;
   align-items: center;
-  text-align: center;
+}
 
-  /* Primary/B400 */
-
+#logo a {
   color: #0016db;
-
-  /* Inside auto layout */
-
-  flex: none;
-  flex-grow: 0;
-  margin: 0 0;
 }
 
-.toolbar-container {
-  /* Toolbar Container */
-
-  position: absolute;
-  visibility: hidden;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-
-  /* Base / 900 */
-
-  background: #181e25;
+nav ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.mobile-menu {
-  display: none;
+nav ul a {
+  color: #0016db;
+}
+
+nav ul li {
+  padding: 5px;
+  margin-left: 10px;
 }
 
 .headline {
@@ -98,6 +55,9 @@ body {
   padding: 114px 24px;
   top: 92px;
   background: #fff;
+  background: url(assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .social-list img {
@@ -1348,8 +1308,9 @@ label {
     padding: 10px;
   }
 
-  .logo span {
+  .logo {
     padding: 0 142px;
+    text-decoration: none;
   }
 
   .menu {
@@ -1624,12 +1585,12 @@ label {
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    width: 34%;
     padding: 0 33% 0 33%;
 
     /* Primary/B50 */
 
     color: #ebebff;
+    width: 100%;
   }
 
   form {
