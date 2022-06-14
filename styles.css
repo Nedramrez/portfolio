@@ -5,15 +5,18 @@
 body {
   background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
 
 .app-bar {
   height: 92px;
+  align-items: center;
 }
 
 .toolbar-mobile {
   overflow: hidden;
   position: relative;
+  margin-top: 10px;
 }
 
 .normal-button {
@@ -1415,6 +1418,10 @@ label {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+  }
+
+  a {
+    color: #0016db;
   }
 
   .header-shapes {
