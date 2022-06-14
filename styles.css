@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -5,34 +7,35 @@
 }
 
 body {
-  background-color: #e5e5e5;
-  font-family: 'Poppins', sans-serif;
+  background-color: #353836;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
-a {
+header a {
   text-decoration: none;
 }
 
 header {
   padding: 0 20px;
+  background-color: #1d1f1d;
   height: 50px;
   display: flex;
   justify-content: space-between;
 }
 
-#logo {
-  font-style: normal;
-  font-weight: 700;
+#brand {
+  font-weight: bold;
   font-size: 18px;
   display: flex;
   align-items: center;
 }
 
-#logo a {
-  color: #0016db;
+#brand a {
+  color: #09c372;
 }
 
-nav ul {
+ul {
   list-style: none;
   height: 100%;
   display: flex;
@@ -40,13 +43,88 @@ nav ul {
   justify-content: space-around;
 }
 
-nav ul a {
-  color: #0016db;
+ul a {
+  color: white;
 }
 
-nav ul li {
+ul li {
   padding: 5px;
   margin-left: 10px;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+#login,
+#signup {
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+#login {
+  border: 1px solid #498afb;
+}
+
+#signup {
+  border: 1px solid #ff3860;
+}
+
+#signup a {
+  color: #ff3860;
+}
+
+#login a {
+  color: #498afb;
+}
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
 }
 
 .headline {
@@ -1285,51 +1363,71 @@ label {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
   body {
     background-color: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
   }
-
-  .burger {
-    display: none;
-  }
-
-  .toolbar-mobile {
-    display: none;
-  }
-
-  .toolbar-desktop {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-  }
-
-  nav {
-    padding: 10px;
-  }
-
-  .logo {
-    padding: 0 142px;
+  
+  a {
     text-decoration: none;
   }
-
-  .menu {
-    display: inline;
-    padding: 16px 142px;
+  
+  header {
+    padding: 0 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo a {
+    color: #0016db;
+  }
+  
+  header nav {
+    display: block;
   }
 
-  .menu > li {
-    display: inline;
-    justify-content: space-between;
-    padding: 8px;
-    width: 63px;
-    height: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #344563;
+  header nav ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  header nav ul a {
+    color: #0016db;
+  }
+  
+  header nav ul li {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  nav ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+
+  .hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
   }
 
   .header-shapes {
