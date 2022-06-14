@@ -48,9 +48,7 @@ body {
   height: 20px;
   left: 12px;
   text-decoration: none;
-}
 
-.logo {
   /* My Logo */
 
   position: static;
@@ -58,7 +56,6 @@ body {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -122,7 +119,6 @@ body {
 }
 
 .mobile-menu a {
-  font-family: Poppins;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -175,7 +171,6 @@ body {
 
 .let-s-connect {
   margin: 6px 0 0;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -184,7 +179,6 @@ body {
 
 .let-s-connect-2 {
   width: 64%;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -208,7 +202,6 @@ main {
 
   /* Header / 2 */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -289,7 +282,6 @@ h5 {
   height: 36px;
   left: 0;
   top: 0;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -384,7 +376,6 @@ h5 {
 
   /* Caption / 1 - Bolder */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -436,7 +427,6 @@ h5 {
 
   /* Caption / 1 - Bolder */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12.9px;
@@ -508,7 +498,6 @@ h5 {
 
   /* Caption / 1 - Bolder */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -537,7 +526,6 @@ h5 {
 
   /* Body / 3 */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -617,7 +605,6 @@ h5 {
 
   /* Button / Small */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -676,7 +663,6 @@ h5 {
 
   /* Button / Small */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -735,7 +721,6 @@ h5 {
 
   /* Button / Small */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -878,7 +863,6 @@ h5 {
 
   /* Button /Normal */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16.9px;
@@ -905,7 +889,6 @@ h5 {
 
   position: static;
   height: 75px;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -929,7 +912,6 @@ h5 {
 }
 
 .about-text {
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1040,7 +1022,6 @@ button:active {
 
   /* Body / 1 - Bolder */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1115,7 +1096,6 @@ button:active {
 
   /* Body / 1 - Bolder */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1168,7 +1148,6 @@ button:active {
 
   /* Body / 1 - Bolder */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1214,7 +1193,6 @@ hr.solid {
 .blue-rounded > h3 {
   /* Header / 2 */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -1233,7 +1211,6 @@ hr.solid {
 .blue-rounded > p {
   /* Primary Text */
   margin: 0 20px;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -1254,7 +1231,6 @@ form {
 
 label {
   font-size: 17px;
-  font-family: Poppins, sans-serif;
   padding-top: 10px;
   color: black;
 }
@@ -1268,7 +1244,6 @@ label {
 
   /* Input Text */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -1294,7 +1269,6 @@ label {
 
   /* Input Text */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -1319,7 +1293,6 @@ label {
   /* Input Text */
 
   padding: 15px 0 0 15px;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1344,7 +1317,6 @@ label {
 
   /* Button /Normal */
 
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16.9px;
@@ -1411,7 +1383,6 @@ label {
     padding: 8px;
     width: 63px;
     height: 20px;
-    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1438,7 +1409,6 @@ label {
   }
 
   .hello {
-    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1470,7 +1440,6 @@ label {
   }
 
   .hello-text {
-    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1483,7 +1452,6 @@ label {
   .let-s-connect {
     width: 64%;
     margin: 0 16%;
-    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1612,7 +1580,6 @@ label {
 
   .let-s-connect-2 {
     width: 64%;
-    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1652,7 +1619,6 @@ label {
   .blue-rounded > h3 {
     /* Header / 2 */
 
-    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1671,7 +1637,6 @@ label {
   .blue-rounded > p {
     /* Primary Text */
     margin: 0 20px;
-    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1702,7 +1667,6 @@ label {
     /* Input Text */
 
     padding: 15px 0 0 15px;
-    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1727,7 +1691,6 @@ label {
 
     /* Button /Normal */
 
-    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16.9px;
