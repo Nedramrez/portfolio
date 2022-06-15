@@ -1164,8 +1164,8 @@ hr.solid {
 }
 
 .contact-me {
-  width: 375px;
-  height: 779px;
+  width: 100%;
+  height: 800px;
 }
 
 .blue-rounded {
@@ -1173,7 +1173,7 @@ hr.solid {
 
   position: absolute;
   width: 100%;
-  height: 850px;
+  height: 1000px;
   left: 0;
   top: 4600px;
   margin: 0;
@@ -1505,7 +1505,7 @@ label {
   }
 
   .snp-p-img {
-    width: 544px;
+    width: 100%;
     height: 448px;
     padding: 24px;
   }
@@ -1521,7 +1521,7 @@ label {
   .works {
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    width: 70%;
   }
 
   .about-myself {
