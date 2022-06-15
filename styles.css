@@ -869,38 +869,16 @@ h5 {
 .about-myself {
   top: 92px;
   background: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  align-items: center;
 }
 
 .about {
-  /* Primary Text */
-
-  position: static;
-  height: 75px;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
-  /* or 130% */
-
   display: flex;
   align-items: center;
-
-  /* Neutrals/N800 */
-
   color: #172b4d;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 12px 0;
 }
 
 .about-text {
@@ -909,9 +887,6 @@ h5 {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  flex: none;
-  flex-grow: 0;
-  width: 327px;
 }
 
 .normal-button-secondary {
