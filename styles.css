@@ -1,14 +1,21 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: #e5e5e5;
+  font-family: Poppins, sans-serif;
+  margin: 0;
 }
 
 .app-bar {
   height: 92px;
+  align-items: center;
 }
 
 .toolbar-mobile {
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+  margin-top: 10px;
 }
 
 .normal-button {
@@ -22,27 +29,22 @@ body {
 .burger {
   /* Icons/Icon - Menu */
 
-  position: static;
-  left: 20%;
-  right: 20%;
-  top: 20%;
-  bottom: 20%;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 0;
 
   /* Inside auto layout */
 
   flex: none;
   flex-grow: 0;
-  margin: 0 0;
+  margin: 0;
 }
 
 .logo {
   padding: 10px 12px;
-  width: 76px;
-  height: 20px;
-  left: 12px;
-}
+  text-decoration: none;
 
-.logo > span {
   /* My Logo */
 
   position: static;
@@ -50,7 +52,6 @@ body {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -68,9 +69,7 @@ body {
 
   /* Inside auto layout */
 
-  flex: none;
-  flex-grow: 0;
-  margin: 0 0;
+  margin-top: auto;
 }
 
 .toolbar-container {
@@ -88,12 +87,52 @@ body {
   background: #181e25;
 }
 
+#mobMenu {
+  display: none;
+}
+
+.mobMenu-close {
+  height: 50px;
+}
+
+.close-icon {
+  padding: 5% 0 0 80%;
+  width: 15px;
+}
+
+.mobile-menu-items {
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  top: 0;
+  background-color: rgb(31 57 255 / 65%);
+  position: fixed;
+  width: 100%;
+  padding: 15% 0;
+}
+
+.mobile-menu a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 44px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 0 0 18px 25px;
+}
+
 .headline {
   /* Auto layout */
 
   padding: 114px 24px;
   top: 92px;
   background: #fff;
+  background: url(assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .social-list img {
@@ -125,7 +164,6 @@ body {
 
 .let-s-connect {
   margin: 6px 0 0;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -134,7 +172,6 @@ body {
 
 .let-s-connect-2 {
   width: 64%;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -158,7 +195,6 @@ main {
 
   /* Header / 2 */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -239,7 +275,6 @@ h5 {
   height: 36px;
   left: 0;
   top: 0;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -334,7 +369,6 @@ h5 {
 
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -386,7 +420,6 @@ h5 {
 
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12.9px;
@@ -458,7 +491,6 @@ h5 {
 
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -487,7 +519,6 @@ h5 {
 
   /* Body / 3 */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -567,7 +598,6 @@ h5 {
 
   /* Button / Small */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -585,7 +615,7 @@ h5 {
 
   flex: none;
   flex-grow: 0;
-  margin: 0 0;
+  margin: 0;
 }
 
 .tag-css {
@@ -626,7 +656,6 @@ h5 {
 
   /* Button / Small */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -644,7 +673,7 @@ h5 {
 
   flex: none;
   flex-grow: 0;
-  margin: 0 0;
+  margin: 0;
 }
 
 .tag-js {
@@ -685,7 +714,6 @@ h5 {
 
   /* Button / Small */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -703,7 +731,7 @@ h5 {
 
   flex: none;
   flex-grow: 0;
-  margin: 0 0;
+  margin: 0;
 }
 
 .card-works-2 {
@@ -828,7 +856,6 @@ h5 {
 
   /* Button /Normal */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16.9px;
@@ -840,54 +867,26 @@ h5 {
 }
 
 .about-myself {
-  padding: 114px 24px;
-  height: 409px;
   top: 92px;
   background: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 327px;
 }
 
 .about {
-  /* Primary Text */
-
-  position: static;
-  height: 75px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
-  /* or 130% */
-
   display: flex;
   align-items: center;
-
-  /* Neutrals/N800 */
-
   color: #172b4d;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 12px 0;
 }
 
 .about-text {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  flex: none;
-  flex-grow: 0;
-  width: 327px;
 }
 
 .normal-button-secondary {
@@ -978,7 +977,7 @@ button:active {
   justify-content: space-between;
   flex: none;
   flex-grow: 0;
-  margin: 0 0;
+  margin: 0;
 }
 
 .languages {
@@ -990,7 +989,6 @@ button:active {
 
   /* Body / 1 - Bolder */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1034,7 +1032,7 @@ button:active {
 
   flex: none;
   flex-grow: 0;
-  margin: 0 0;
+  margin: 0;
 }
 
 .skill-frameworks {
@@ -1053,7 +1051,7 @@ button:active {
   justify-content: space-between;
   flex: none;
   flex-grow: 0;
-  margin: 0 0;
+  margin: 0;
 }
 
 .frameworks {
@@ -1065,7 +1063,6 @@ button:active {
 
   /* Body / 1 - Bolder */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1106,7 +1103,7 @@ button:active {
   justify-content: space-between;
   flex: none;
   flex-grow: 0;
-  margin: 0 0;
+  margin: 0;
 }
 
 .skills {
@@ -1118,7 +1115,6 @@ button:active {
 
   /* Body / 1 - Bolder */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1140,8 +1136,8 @@ hr.solid {
 }
 
 .contact-me {
-  width: 375px;
-  height: 779px;
+  width: 100%;
+  height: 800px;
 }
 
 .blue-rounded {
@@ -1149,7 +1145,7 @@ hr.solid {
 
   position: absolute;
   width: 100%;
-  height: 850px;
+  height: 1000px;
   left: 0;
   top: 4600px;
   margin: 0;
@@ -1157,14 +1153,13 @@ hr.solid {
   /* Primary/B400 */
 
   background: #6070ff;
-  border-radius: 50px 0 0 0;
+  border-radius: 50px 0 0;
   background-image: url(assets/desktop-contact-bg.svg);
 }
 
 .blue-rounded > h3 {
   /* Header / 2 */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -1182,8 +1177,7 @@ hr.solid {
 
 .blue-rounded > p {
   /* Primary Text */
-  margin: 0 20px 0 20px;
-  font-family: 'Poppins', sans-serif;
+  margin: 0 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -1204,7 +1198,6 @@ form {
 
 label {
   font-size: 17px;
-  font-family: 'Poppins', sans-serif;
   padding-top: 10px;
   color: black;
 }
@@ -1212,13 +1205,12 @@ label {
 #name {
   height: 48px;
   border-radius: 8px;
-  margin: 0 24px 20px 24px;
+  margin: 0 24px 20px;
   padding: 10px;
   border: none;
 
   /* Input Text */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -1236,7 +1228,7 @@ label {
 
 #email {
   height: 48px;
-  margin: 0 24px 20px 24px;
+  margin: 0 24px 20px;
   padding: 10px;
   border-radius: 8px;
   margin-bottom: 18px;
@@ -1244,7 +1236,6 @@ label {
 
   /* Input Text */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -1263,13 +1254,12 @@ label {
 #message {
   border-radius: 8px;
   border: none;
-  margin: 0 24px 20px 24px;
+  margin: 0 24px 20px;
   height: 170px;
 
   /* Input Text */
 
   padding: 15px 0 0 15px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1294,7 +1284,6 @@ label {
 
   /* Button /Normal */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16.9px;
@@ -1324,6 +1313,7 @@ label {
 @media (min-width: 768px) {
   body {
     background-color: #e5e5e5;
+    font-family: Poppins, sans-serif;
   }
 
   .burger {
@@ -1344,8 +1334,9 @@ label {
     padding: 10px;
   }
 
-  .logo span {
+  .logo {
     padding: 0 142px;
+    text-decoration: none;
   }
 
   .menu {
@@ -1359,12 +1350,16 @@ label {
     padding: 8px;
     width: 63px;
     height: 20px;
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+  }
+
+  a {
+    color: #0016db;
+    text-decoration: none;
   }
 
   .header-shapes {
@@ -1381,21 +1376,20 @@ label {
   }
 
   .hello {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     color: #172b4d;
     width: 64%;
-    margin: 10% 16% 0 16%;
+    margin: 10% 16% 0;
     animation-name: example;
     animation-duration: 8s;
   }
 
   @keyframes example {
     0% {
-      background-color: rgba(14, 173, 176, 0.914);
+      background-color: rgb(14 173 176 / 91.4%);
       color: black;
     }
 
@@ -1405,28 +1399,26 @@ label {
     }
 
     50% {
-      background-color: rgb(228, 112, 112);
+      background-color: rgb(228 112 112);
       color: black;
     }
 
-    100% { background-color: rgb(43, 57, 182); }
+    100% { background-color: rgb(43 57 182); }
   }
 
   .hello-text {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #344563;
     flex-grow: 0;
     width: 64%;
-    margin: 0 16% 0 16%;
+    margin: 0 16%;
   }
 
   .let-s-connect {
     width: 64%;
-    margin: 0 16% 0 16%;
-    font-family: 'Poppins', sans-serif;
+    margin: 0 16%;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1437,7 +1429,7 @@ label {
     list-style-type: none;
     padding: 0;
     width: 64%;
-    margin: 0 16% 0 16%;
+    margin: 0 16%;
   }
 
   .card-works-1 {
@@ -1485,7 +1477,7 @@ label {
   }
 
   .snp-p-img {
-    width: 544px;
+    width: 100%;
     height: 448px;
     padding: 24px;
   }
@@ -1501,7 +1493,7 @@ label {
   .works {
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    width: 70%;
   }
 
   .about-myself {
@@ -1555,7 +1547,6 @@ label {
 
   .let-s-connect-2 {
     width: 64%;
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1578,7 +1569,7 @@ label {
     /* Primary/B400 */
 
     background: #6070ff;
-    border-radius: 50px 0 0 0;
+    border-radius: 50px 0 0;
     width: 100%;
     background-image: url(assets/desktop-contact-bg.svg);
     background-position: center;
@@ -1595,7 +1586,6 @@ label {
   .blue-rounded > h3 {
     /* Header / 2 */
 
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1613,15 +1603,14 @@ label {
 
   .blue-rounded > p {
     /* Primary Text */
-    margin: 0 20px 0 20px;
-    font-family: 'Poppins', sans-serif;
+    margin: 0 20px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
     width: 34%;
-    padding: 0 33% 0 33%;
+    padding: 0 33%;
 
     /* Primary/B50 */
 
@@ -1639,13 +1628,12 @@ label {
   #message {
     border-radius: 8px;
     border: none;
-    margin: 0 24px 20px 24px;
+    margin: 0 24px 20px;
     height: 170px;
 
     /* Input Text */
 
     padding: 15px 0 0 15px;
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1670,7 +1658,6 @@ label {
 
     /* Button /Normal */
 
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16.9px;
@@ -1701,9 +1688,5 @@ label {
   #btn:active {
     background-color: #2230d2;
     color: #dfe1e6;
-  }
-
-  a {
-    text-decoration: none;
   }
 }
