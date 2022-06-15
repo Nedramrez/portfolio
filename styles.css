@@ -107,7 +107,7 @@ body {
   backdrop-filter: blur(6px);
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   top: 0;
   background-color: rgb(31 57 255 / 65%);
   position: fixed;
