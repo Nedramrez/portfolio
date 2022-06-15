@@ -99,18 +99,17 @@ body {
 }
 
 .close-icon {
-  padding: 5% 0 0 85%;
+  padding: 5% 0 0 80%;
   width: 20px;
 }
 
 .mobile-menu-items {
-  backdrop-filter: blur(13px);
-  mix-blend-mode: multiply;
+  backdrop-filter: blur(6px);
   display: flex;
   flex-direction: column;
   height: 100vh;
   top: 0;
-  background-color: #6070ff;
+  background-color: rgb(31 57 255 / 65%);
   position: fixed;
   width: 100%;
 }
@@ -124,8 +123,7 @@ body {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  padding: 16px;
-  mix-blend-mode: initial;
+  padding: 0 0 13px 25px;
 }
 
 .headline {
