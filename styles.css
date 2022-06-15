@@ -100,7 +100,7 @@ body {
 
 .close-icon {
   padding: 5% 0 0 80%;
-  width: 20px;
+  width: 15px;
 }
 
 .mobile-menu-items {
@@ -112,6 +112,7 @@ body {
   background-color: rgb(31 57 255 / 65%);
   position: fixed;
   width: 100%;
+  padding: 15% 0;
 }
 
 .mobile-menu a {
@@ -123,7 +124,7 @@ body {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  padding: 0 0 13px 25px;
+  padding: 0 0 18px 25px;
 }
 
 .headline {
