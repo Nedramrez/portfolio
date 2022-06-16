@@ -8,6 +8,7 @@ function mobileMenu() {
   }
 }
 
+//Details Popup Window
 const detailsPp  = function () {
   const x = document.getElementById('pp-details');
   if (x.style.display === 'block') {
@@ -17,7 +18,6 @@ const detailsPp  = function () {
   }
 }
 
-//Details Popup Window
 const allCards = {
   firstCard: {
     name: 'Tonic',
@@ -54,4 +54,3 @@ const allCards = {
 };
 
 window.localStorage.setItem('allCards', JSON.stringify(allCards));
-
