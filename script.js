@@ -8,15 +8,15 @@ function mobileMenu() {
   }
 }
 
-//Details Popup Window
-const detailsPp  = function () {
+// eslint-disable-next-line no-unused-vars
+function detailsPp() {
   const x = document.getElementById('pp-details');
   if (x.style.display === 'block') {
     x.style.display = 'none';
   } else {
     x.style.display = 'block';
   }
-}
+};
 
 const allCards = {
   firstCard: {

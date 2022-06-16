@@ -1319,7 +1319,8 @@ label {
   display: none;
 }
 
-/* The Detatils Popup*/
+/*The Detatils Popup*/
+
 #pp-details {
   display: none;
   position: fixed;
@@ -1373,7 +1374,7 @@ label {
 .pp-img-cont {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
 
 .pp-img {
@@ -1406,7 +1407,7 @@ label {
   flex-wrap: wrap;
   width: 250px;
   padding: 10px 10px 10px 0;
-} 
+}
 
 .pp-btns {
   display: flex;
@@ -1837,14 +1838,18 @@ label {
     background-color: white;
     width: 80%;
     height: 88%;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    width: 1156px;
+    height: 700px;
+    max-width: 80%;
+    max-height: 88%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 16px;
+    border-radius: 50px;
   }
 
   /*The Details Popup Window*/
@@ -1860,34 +1865,19 @@ label {
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  .pp-container {
-    background-color: white;
-    width: 1156px;
-    height: 700px;
-    max-width: 80%;
-    max-height: 88%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-  }
-  
   .pp-top-block {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .pp-hdng {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
   }
-  
+
   .close-button {
     cursor: pointer;
     border: none;
@@ -1897,20 +1887,20 @@ label {
     font-weight: bold;
     align-self: center;
   }
-  
+
   .pp-img-cont {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
   }
-  
+
   .pp-img {
     justify-content: center;
     align-items: center;
     height: 80%;
     width: 88%;
   }
-  
+
   .pp-dscrptn {
     padding-bottom: 2%;
     overflow: visible;
@@ -1921,14 +1911,14 @@ label {
     display: flex;
     flex-direction: row;
   }
-  
+
   .pp-flex {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
   }
-  
+
   .pp-specs {
     display: flex;
     flex-direction: row;
@@ -1947,7 +1937,7 @@ label {
     align-items: center;
     width: 90%;
   }
-  
+
   .pp-btn {
     display: flex;
     justify-content: space-between;
@@ -1969,7 +1959,7 @@ label {
     line-height: 20px;
     color: #0c3fc0;
   }
-  
+
   .see img {
     padding-left: 10px;
   }
