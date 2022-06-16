@@ -16,7 +16,7 @@ function detailsPp() {
   } else {
     x.style.display = 'block';
   }
-};
+}
 
 const allCards = {
   firstCard: {

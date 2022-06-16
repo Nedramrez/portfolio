@@ -1319,7 +1319,7 @@ label {
   display: none;
 }
 
-/*The Detatils Popup*/
+/* The Detatils Popup */
 
 #pp-details {
   display: none;
@@ -1836,8 +1836,6 @@ label {
 
   .pp-container {
     background-color: white;
-    width: 80%;
-    height: 88%;
     justify-content: center;
     transform: translate(-50%, -50%);
     width: 1156px;
@@ -1852,7 +1850,7 @@ label {
     border-radius: 50px;
   }
 
-  /*The Details Popup Window*/
+  /* The Details Popup Window */
 
   .pp-details {
     display: none;
