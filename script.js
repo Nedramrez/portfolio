@@ -14,26 +14,41 @@ const works = [
   {
       title: "Tonic",
       image: "../assets/tonic.svg",
+      see: "https://nedramrez.github.io/portfolio",
+      repo: "https://github.com/nedramrez/portfolio",
   },
   {
     title: "Multi-post stories",
     image: "../assets/snapshoot-portfolio.svg",
+    see: "https://nedramrez.github.io/portfolio",
+    repo: "https://github.com/nedramrez/portfolio",
     },  
   {
       title: "Tonic",
       image: "../assets/snapshot-card-3.svg",
-      client: "CANOPY"
+      see: "https://nedramrez.github.io/portfolio",
+      repo: "https://github.com/nedramrez/portfolio",
     },  
   {
       title: "Multi-post stories",
       image: "../assets/snapshot-card-4.svg",
+      see: "https://nedramrez.github.io/portfolio",
+      repo: "https://github.com/nedramrez/portfolio",
   },
-  
 ]
 
-const client = "CANOPY";
-const role = "Back End Dev"
-const year = "2015"
+const details = {
+  client: "CANOPY",
+  role: "Back End Dev",
+  year: "2015",
+  description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+}
+
+const tags = {
+  html: "html",
+  css: "css",
+  javascript: "javascript",
+}
 
 works.forEach(work => {
 	let portfolio = document.querySelector('#portfolio')
@@ -49,38 +64,38 @@ works.forEach(work => {
           <h5 class="tonic">${work.title}</h5>
           <div class="frame">
             <div class="client">
-              <h6>${client}</h6>
+              <h6>${details.client}</h6>
             </div>
             <div>
               <img class="counter" src="assets/counter.svg" alt="counter">
             </div>
             <div class="role">
-              <span>${role}</span>
+              <span>${details.role}</span>
             </div>
             <div>
               <img class="counter" src="assets/counter.svg" alt="counter">
             </div>
             <div class="year-label">
-              <span>${year}</span>
+              <span>${details.year}</span>
             </div>
         </div>
       </div>
-      <p class="primary-text-4">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+      <p class="primary-text-4">${details.description}</p>
       <div class="tags">
         <ul>
           <li>
             <div class="tag-html">
-              <span>html</span>
+              <span>${tags.html}</span>
             </div>
           </li>
           <li>  
             <div class="tag-css">
-              <span>css</span>
+              <span>${tags.css}</span>
             </div>
           </li>
           <li>
             <div class="tag-js">
-              <span>javaScript</span>
+              <span>${tags.javascript}</span>
             </div>
           </li>
         </ul>
