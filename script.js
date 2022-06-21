@@ -10,10 +10,10 @@ function mobileMenu() {
 
 //The details popup window
 
-const works = document.querySelector('works');
+const works = document.querySelector('#portfolio');
 
 const cardWorks = document.createElement('div');
 cardWorks.classList.add('card-works');
-cardWorks.textContent = 'TETETETETETET';
+cardWorks.textContent = '';
 
 works.appendChild(cardWorks);
