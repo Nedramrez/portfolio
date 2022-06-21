@@ -8,54 +8,53 @@ function mobileMenu() {
   }
 }
 
-//Dynamic part of website
+// Dynamic part of website
 
 const works = [
   {
-      title: "Tonic",
-      image: "../assets/tonic.svg",
-      see: "https://nedramrez.github.io/portfolio",
-      repo: "https://github.com/nedramrez/portfolio",
+    title: 'Tonic',
+    image: '../assets/tonic.svg',
+    see: 'https://nedramrez.github.io/portfolio',
+    repo: 'https://github.com/nedramrez/portfolio',
   },
   {
-    title: "Multi-post stories",
-    image: "../assets/snapshoot-portfolio.svg",
-    see: "https://nedramrez.github.io/portfolio",
-    repo: "https://github.com/nedramrez/portfolio",
-    },  
-  {
-      title: "Tonic",
-      image: "../assets/snapshot-card-3.svg",
-      see: "https://nedramrez.github.io/portfolio",
-      repo: "https://github.com/nedramrez/portfolio",
-    },  
-  {
-      title: "Multi-post stories",
-      image: "../assets/snapshot-card-4.svg",
-      see: "https://nedramrez.github.io/portfolio",
-      repo: "https://github.com/nedramrez/portfolio",
+    title: 'Multi-post stories',
+    image: '../assets/snapshoot-portfolio.svg',
+    see: 'https://nedramrez.github.io/portfolio',
+    repo: 'https://github.com/nedramrez/portfolio',
   },
-]
+  {
+    title: 'Tonic',
+    image: '../assets/snapshot-card-3.svg',
+    see: 'https://nedramrez.github.io/portfolio',
+    repo: 'https://github.com/nedramrez/portfolio',
+  },
+  {
+    title: 'Multi-post stories',
+    image: '../assets/snapshot-card-4.svg',
+    see: 'https://nedramrez.github.io/portfolio',
+    repo: 'https://github.com/nedramrez/portfolio',
+  },
+];
 
 const details = {
-  client: "CANOPY",
-  role: "Back End Dev",
-  year: "2015",
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-}
+  client: 'CANOPY',
+  role: 'Back End Dev',
+  year: '2015',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+};
 
 const tags = {
-  html: "html",
-  css: "css",
-  javascript: "javascript",
-}
-
+  html: 'html',
+  css: 'css',
+  javascript: 'javascript',
+};
+// eslint-disable-line arrow-parens
 works.forEach(work => {
-	let portfolio = document.querySelector('#portfolio')
+  const portfolio = document.querySelector('#portfolio');
   let cardWorks = document.createElement('div');
-  cardWorks.classList.add('card-works')
-
-  cardWorks.innerHTML = cardWorks.innerHTML + `
+  cardWorks.classList.add('card-works');
+  cardWorks.innerHTML = `
     <div class="snapshot-portfolio">
       <img class="snp-p-img" src=${work.image} width="295" height="220">
     </div>
@@ -106,16 +105,16 @@ works.forEach(work => {
         </div>
       </div>
     </div>
-  `
+  `;
   portfolio.appendChild(cardWorks);
 });
 
-// The Details Popup Window 
-const detailsPp  = function () {
+// eslint-disable-next-line
+const detailsPp = function (detail) {
   const x = document.getElementById('pp-details');
   if (x.style.display === 'block') {
     x.style.display = 'none';
   } else {
     x.style.display = 'block';
   }
-}
+};
