@@ -49,10 +49,10 @@ const tags = {
   css: 'css',
   javascript: 'javascript',
 };
-// eslint-disable-line arrow-parens
-works.forEach(work => {
+
+works.forEach(work => { // eslint-disable-line
   const portfolio = document.querySelector('#portfolio');
-  let cardWorks = document.createElement('div');
+  const cardWorks = document.createElement('div');
   cardWorks.classList.add('card-works');
   cardWorks.innerHTML = `
     <div class="snapshot-portfolio">
