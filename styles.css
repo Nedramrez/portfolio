@@ -129,8 +129,8 @@ body {
 
   padding: 114px 24px;
   top: 92px;
-  background: #fff;
   background: url(assets/bg.png);
+  background-color: white;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
