@@ -8,7 +8,7 @@ function mobileMenu() {
   }
 }
 
-//The details popup window
+//Dynamic part of website
 
 const works = [
   {
@@ -110,5 +110,12 @@ works.forEach(work => {
   portfolio.appendChild(cardWorks);
 });
 
-
-
+// The Details Popup Window 
+const detailsPp  = function () {
+  const x = document.getElementById('pp-details');
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'block';
+  }
+}
