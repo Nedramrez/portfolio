@@ -1146,10 +1146,10 @@ hr.solid {
 
   position: absolute;
   width: 100%;
-  
+
   /* height: 1000px; */
   left: 0;
-  
+
   /* top: 4600px; */
   margin: 0;
 
@@ -1180,17 +1180,17 @@ hr.solid {
 .blue-rounded > p {
   /* Primary Text */
   width: 569px;
-  
+
   /* height: 102px; */
   font-family: "Poppins", sans-serif;
-  
+
   /* margin: 0 20px; */
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  
+
   /* Primary/B50 */
   color: #ebebff;
   margin-bottom: 24px;
