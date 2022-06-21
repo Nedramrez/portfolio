@@ -104,7 +104,7 @@ a {
 }
 
 .close-icon {
-  padding: 5% 0 0 80%;
+  padding: 5% 0 0 86%;
   width: 15px;
 }
 
@@ -138,7 +138,7 @@ a {
   padding: 114px 24px;
   top: 92px;
   background: url(assets/bg.png);
-  background-color: #fff;
+  background-color: white;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -785,6 +785,7 @@ h5 {
 .about-myself {
   top: 92px;
   background: #fff;
+  border-top-right-radius: 84px;
 }
 
 .about {
@@ -1023,21 +1024,13 @@ button:active {
 }
 
 .skills {
-  /* Skills */
-
   height: 24px;
   left: 12px;
   right: 78px;
-
-  /* Body / 1 - Bolder */
-
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-
-  /* identical to box height, or 120% */
-
   display: flex;
   align-items: center;
   padding: 12px;
@@ -1045,8 +1038,6 @@ button:active {
 }
 
 hr.solid {
-  /* Solid border */
-
   border-top: 1px solid #dfe1e6;
   width: 80%;
   padding: 0 5% 0 5%;
@@ -1058,50 +1049,34 @@ hr.solid {
 }
 
 .blue-rounded {
-  /* Contact me */
-
+  position: absolute;
   width: 100%;
-  height: 1000px;
   left: 0;
   margin: 0;
-
-  /* Primary/B400 */
-
   background: #6070ff;
   border-radius: 50px 0 0;
   background-image: url(assets/desktop-contact-bg.svg);
 }
 
 .blue-rounded > h3 {
-  /* Header / 2 */
-
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   margin-top: 103px;
-
-  /* or 130% */
-
   text-align: center;
-
-  /* Neutrals/N0 */
-
   color: #fff;
 }
 
 .blue-rounded > p {
-  /* Primary Text */
-  margin: 0 20px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-
-  /* Primary/B50 */
-
   color: #ebebff;
+  margin-bottom: 24px;
 }
 
 form {
@@ -1111,14 +1086,8 @@ form {
   flex-direction: column;
 }
 
-label {
-  font-size: 17px;
-  padding-top: 10px;
-  color: black;
-}
-
 #name {
-  height: 48px;
+  /* height: 48px; */
   border-radius: 8px;
   margin: 0 24px 20px;
   padding: 10px;
@@ -1142,7 +1111,7 @@ label {
 }
 
 #email {
-  height: 48px;
+  /* height: 48px; */
   margin: 0 24px 20px;
   padding: 10px;
   border-radius: 8px;
@@ -1173,7 +1142,6 @@ label {
   height: 170px;
 
   /* Input Text */
-
   padding: 15px 0 0 15px;
   font-style: normal;
   font-weight: 400;
@@ -1453,7 +1421,9 @@ label {
       color: black;
     }
 
-    100% { background-color: rgb(43 57 182); }
+    100% {
+      background-color: rgb(43 57 182);
+    }
   }
 
   .hello-text {
@@ -1580,9 +1550,6 @@ label {
   }
 
   .blue-rounded {
-    /* Contact me */
-    height: auto;
-
     /* Primary/B400 */
 
     background: #6070ff;
