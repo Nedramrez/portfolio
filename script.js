@@ -16,4 +16,4 @@ const cardWorks = document.createElement('div');
 cardWorks.classList.add('card-works');
 cardWorks.textContent = 'TETETETETETET';
 
-works.append(cardWorks);
+works.appendChild(cardWorks);
