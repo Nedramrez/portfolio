@@ -234,7 +234,7 @@ main {
   top: 80px;
 }
 
-.card-works-1 {
+.card-works {
   /* Card Works */
 
   /* Auto layout */
@@ -742,98 +742,6 @@ h5 {
   margin: 0;
 }
 
-.card-works-2 {
-  /* Card Works */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  position: static;
-  height: 596px;
-  left: 0;
-  top: 754px;
-
-  /* Neutrals/N0 */
-
-  background: #fff;
-
-  /* Neutrals/N40 */
-
-  border: 1px solid #dfe1e6;
-  box-sizing: border-box;
-  border-radius: 16px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  flex-grow: 0;
-  margin: 88px 0;
-}
-
-.card-works-3 {
-  /* Card Works */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  position: static;
-  height: 596px;
-  left: 0;
-  top: 1438px;
-
-  /* Neutrals/N0 */
-
-  background: #fff;
-
-  /* Neutrals/N40 */
-
-  border: 1px solid #dfe1e6;
-  box-sizing: border-box;
-  border-radius: 16px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  flex-grow: 0;
-  margin: 88px 0;
-}
-
-.card-works-4 {
-  /* Card Works */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  position: static;
-  height: 596px;
-  left: 0;
-  top: 2078px;
-
-  /* Neutrals/N0 */
-
-  background: #fff;
-
-  /* Neutrals/N40 */
-
-  border: 1px solid #dfe1e6;
-  box-sizing: border-box;
-  border-radius: 16px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  flex-grow: 0;
-  margin: 88px 0;
-}
 
 .action {
   /* Action */
@@ -1152,11 +1060,9 @@ hr.solid {
 .blue-rounded {
   /* Contact me */
 
-  position: absolute;
   width: 100%;
   height: 1000px;
   left: 0;
-  top: 4600px;
   margin: 0;
 
   /* Primary/B400 */
@@ -1576,40 +1482,7 @@ label {
     margin: 0 16%;
   }
 
-  .card-works-1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    box-sizing: border-box;
-    border-radius: 16px;
-  }
-
-  .card-works-2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    box-sizing: border-box;
-    border-radius: 16px;
-  }
-
-  .card-works-3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    box-sizing: border-box;
-    border-radius: 16px;
-  }
-
-  .card-works-4 {
+  .card-works {
     display: flex;
     flex-direction: row;
     align-items: center;
