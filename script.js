@@ -41,7 +41,7 @@ const details = {
   client: 'CANOPY',
   role: 'Back End Dev',
   year: '2015',
-  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  description: 'This represents my exeprtise in Backend development.',
 };
 
 const tags = {
