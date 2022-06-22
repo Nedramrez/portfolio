@@ -1520,11 +1520,12 @@ form {
     background-color: white;
     justify-content: center;
     transform: translate(-50%, -50%);
-    width: 35%;
-    height: 70%;
+    width: 42rem;
+    height: 42rem;
     display: flex;
     flex-direction: column;
     position: fixed;
+    padding: 5rem 1rem;
   }
 
   /* The Details Popup Window */
