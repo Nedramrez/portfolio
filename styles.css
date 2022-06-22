@@ -1525,7 +1525,6 @@ form {
     display: flex;
     flex-direction: column;
     position: fixed;
-
   }
 
   /* The Details Popup Window */
