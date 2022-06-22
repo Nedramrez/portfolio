@@ -41,7 +41,7 @@ const details = {
   client: 'CANOPY',
   role: 'Back End Dev',
   year: '2015',
-  description: 'This represents my exeprtise in Backend development.',
+  description: 'This represents my expertise in Backend development.',
 };
 
 const tags = {
