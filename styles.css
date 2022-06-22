@@ -117,7 +117,8 @@ main {
 }
 
 .headline {
-  background: no-repeat white 100%
+    background: 
+    no-repeat white 100%
   url(assets/bg.png);
   padding: 114px 24px;
   top: 92px;
@@ -218,7 +219,7 @@ h5 {
   color: #172b4d;
   flex: none;
   flex-grow: 0;
-  font: normal 700 32px 'Poppins';
+  font: normal 700 32px 'Poppins', sans-serif;
   height: 36px;
   left: 0;
   line-height: 36px;
@@ -274,7 +275,7 @@ h5 {
 
 .client > h6 {
   color: #344563;
-  font: normal 600 13px 'Poppins',sans-serif;
+  font: normal 600 13px 'Poppins', sans-serif;
 }
 
 .role {
