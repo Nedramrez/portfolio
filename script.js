@@ -13,25 +13,25 @@ function mobileMenu() {
 const works = [
   {
     title: 'Tonic',
-    image: '../assets/tonic.svg',
+    image: 'assets/tonic.svg',
     see: 'https://nedramrez.github.io/portfolio',
     repo: 'https://github.com/nedramrez/portfolio',
   },
   {
     title: 'Multi-post stories',
-    image: '../assets/snapshoot-portfolio.svg',
+    image: 'assets/snapshoot-portfolio.svg',
     see: 'https://nedramrez.github.io/portfolio',
     repo: 'https://github.com/nedramrez/portfolio',
   },
   {
     title: 'Tonic',
-    image: '../assets/snapshot-card-3.svg',
+    image: 'assets/snapshot-card-3.svg',
     see: 'https://nedramrez.github.io/portfolio',
     repo: 'https://github.com/nedramrez/portfolio',
   },
   {
     title: 'Multi-post stories',
-    image: '../assets/snapshot-card-4.svg',
+    image: 'assets/snapshot-card-4.svg',
     see: 'https://nedramrez.github.io/portfolio',
     repo: 'https://github.com/nedramrez/portfolio',
   },
