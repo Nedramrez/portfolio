@@ -978,6 +978,12 @@ form {
   color: #172b4d;
 }
 
+.lowcase-error {
+color: rgb(201, 230, 36);
+font: 400 15px 'Poppins', sans-serif;
+margin: 5px;
+}
+
 #message {
   border-radius: 8px;
   border: none;
