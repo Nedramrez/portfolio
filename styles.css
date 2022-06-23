@@ -979,9 +979,9 @@ form {
 }
 
 .lowcase-error {
-color: rgb(201, 230, 36);
-font: 400 15px 'Poppins', sans-serif;
-margin: 5px;
+  color: rgb(201, 230, 36);
+  font: 400 15px 'Poppins', sans-serif;
+  margin: 5px;
 }
 
 #message {
