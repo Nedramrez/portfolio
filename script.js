@@ -118,3 +118,18 @@ const detailsPp = function (detail) {
     x.style.display = 'block';
   }
 };
+
+/* The Email Validation */
+document.querySelector('.submit').addEventListener('click', (event) => {
+  const email = document.getElementById('mail').value;
+  const lowcaseError = document.querySelector('.lowcase-error');
+  const isLowerCase = (str) => str === str.toLowerCase();
+  if (!isLowerCase(email)) {
+    event.preventDefault();
+    lowcaseError.innerHTML = 'Please use lowercase letters and proper mail pattern';
+    // Hide error after 5 seconds.
+    setTimeout(() => {
+      lowcaseError.innerHTML = '';
+    }, 5000);
+  }
+});

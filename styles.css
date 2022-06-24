@@ -953,7 +953,7 @@ form {
   color: #172b4d;
 }
 
-#email {
+#mail {
   /* height: 48px; */
   margin: 0 24px 20px;
   padding: 10px;
@@ -976,6 +976,12 @@ form {
   /* Neutral/N800 */
 
   color: #172b4d;
+}
+
+.lowcase-error {
+  color: rgb(201, 230, 36);
+  font: 400 15px 'Poppins', sans-serif;
+  margin: 5px;
 }
 
 #message {
