@@ -185,6 +185,10 @@ main {
   top: 80px;
 }
 
+.hidden-h2 {
+  display: none;
+}
+
 .card-works {
   align-items: center;
   background: #fff;
@@ -271,7 +275,7 @@ h5 {
   width: 55px;
 }
 
-.client > h6 {
+.client>h6 {
   color: #344563;
   font: normal 600 13px 'Poppins', sans-serif;
 }
@@ -282,14 +286,12 @@ h5 {
   flex: none;
 }
 
-.role > span {
+.role>span {
   color: #4b5363;
   font: 600 12.9px 'Poppins', sans-serif;
 }
 
 .counter {
-  /* Counter */
-
   position: static;
   width: 8px;
   height: 8px;
@@ -327,7 +329,7 @@ h5 {
   flex-grow: 0;
 }
 
-.year-label > span {
+.year-label>span {
   /* Text */
 
   position: static;
@@ -384,7 +386,7 @@ h5 {
   margin-bottom: 12px;
 }
 
-.tags > ul {
+.tags>ul {
   /* Tags */
 
   /* Auto layout */
@@ -434,7 +436,7 @@ h5 {
   flex-grow: 0;
 }
 
-.tag-html > span {
+.tag-html>span {
   /* html */
 
   position: static;
@@ -492,7 +494,7 @@ h5 {
   margin: 0 8px;
 }
 
-.tag-css > span {
+.tag-css>span {
   /* css */
 
   position: static;
@@ -550,7 +552,7 @@ h5 {
   margin: 0 8px;
 }
 
-.tag-js > span {
+.tag-js>span {
   /* javaScript */
 
   position: static;
@@ -597,7 +599,7 @@ h5 {
   margin: 12px 0;
 }
 
-.see-project > button {
+.see-project>button {
   /* See Project */
 
   position: static;
@@ -901,7 +903,7 @@ hr.solid {
   background-image: url(assets/desktop-contact-bg.svg);
 }
 
-.blue-rounded > h3 {
+.blue-rounded>h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -911,7 +913,7 @@ hr.solid {
   color: #fff;
 }
 
-.blue-rounded > p {
+.blue-rounded>p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1042,7 +1044,7 @@ form {
   display: none;
 }
 
-/* The Detatils Popup */
+/* The Details Popup */
 
 #pp-details {
   display: none;
@@ -1211,7 +1213,7 @@ form {
     padding: 16px 142px;
   }
 
-  .menu > li {
+  .menu>li {
     display: inline;
     justify-content: space-between;
     padding: 8px;
@@ -1299,6 +1301,10 @@ form {
     padding: 0;
     width: 64%;
     margin: 0 16%;
+  }
+
+  .hidden-h2 {
+    display: none;
   }
 
   .card-works {
@@ -1408,14 +1414,14 @@ form {
     background-repeat: no-repeat;
   }
 
-  .blue-rounded > img {
+  .blue-rounded>img {
     position: absolute;
     width: 250px;
     left: 1000px;
     top: 21px;
   }
 
-  .blue-rounded > h3 {
+  .blue-rounded>h3 {
     /* Header / 2 */
 
     font-style: normal;
@@ -1433,7 +1439,7 @@ form {
     color: #fff;
   }
 
-  .blue-rounded > p {
+  .blue-rounded>p {
     /* Primary Text */
     margin: 0 20px;
     font-style: normal;

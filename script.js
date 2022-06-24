@@ -133,3 +133,38 @@ document.querySelector('.submit').addEventListener('click', (event) => {
     }, 5000);
   }
 });
+
+/* Local Storage Exercise */
+
+const namE = document.getElementById('name');
+const emaiL = document.getElementById('mail');
+const messagE = document.getElementById('message');
+
+if (!localStorage.getItem('forM')) {
+  const forM = {
+    nameValue: '',
+    emailValue: '',
+    textValue: '',
+  };
+  localStorage.setItem('forM', JSON.stringify(forM));
+}
+
+function onChanged(input) {
+  input.addEventListener('change', () => {
+    const forM = {
+      nameValue: namE.value,
+      emailValue: emaiL.value,
+      messageValue: messagE.value,
+    };
+    window.localStorage.setItem('forM', JSON.stringify(forM));
+  });
+}
+
+const formData = JSON.parse(window.localStorage.getItem('forM'));
+namE.value = formData.nameValue;
+emaiL.value = formData.emailValue;
+messagE.value = formData.messageValue;
+
+onChanged(namE);
+onChanged(emaiL);
+onChanged(messagE);
