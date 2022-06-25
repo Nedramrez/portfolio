@@ -137,7 +137,7 @@ document.querySelector('.submit').addEventListener('click', (event) => {
 /* Local Storage Exercise */
 
 const namE = document.getElementById('name');
-const emaiL = document.getElementById('mail');
+const emaiL = document.getElementById('email');
 const messagE = document.getElementById('message');
 
 if (!localStorage.getItem('forM')) {
