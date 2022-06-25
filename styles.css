@@ -1253,7 +1253,7 @@ form {
     width: 64%;
     margin: 10% 16% 0;
     animation-name: example;
-    animation-duration: 8s;
+    animation-duration: 6s;
   }
 
   @keyframes example {
@@ -1325,7 +1325,7 @@ form {
   }
 
   .snp-p-img:hover {
-    transform: scale(1.3);
+    transform: scale(0.9);
   }
 
   .left-block {
