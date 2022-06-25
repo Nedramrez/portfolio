@@ -46,7 +46,7 @@ a {
   align-items: center;
   color: #0016db;
   display: flex;
-  font: normal 700 18px 'Poppins', sans-serif;
+  font: normal 700 18px Poppins, sans-serif;
   height: 20px;
   left: 12px;
   line-height: 20px;
@@ -102,7 +102,7 @@ a {
   color: white;
   display: flex;
   flex-direction: column;
-  font: normal 500 35px 'Poppins', sans-serif;
+  font: normal 500 35px Poppins, sans-serif;
   line-height: 44px;
   padding: 0 0 18px 25px;
   text-decoration: none;
@@ -151,13 +151,13 @@ main {
 
 .let-s-connect {
   color: #0f27ff;
-  font: normal 500 16px 'Poppins', sans-serif;
+  font: normal 500 16px Poppins, sans-serif;
   margin: 6px 0 0;
 }
 
 .let-s-connect-2 {
   color: #7f8cff;
-  font: normal 500 16px 'Poppins', sans-serif;
+  font: normal 500 16px Poppins, sans-serif;
   width: 64%;
 }
 
@@ -167,7 +167,7 @@ main {
   display: flex;
   flex: none;
   flex-grow: 0;
-  font: normal 700 40px 'Poppins', sans-serif;
+  font: normal 700 40px Poppins, sans-serif;
   height: 126px;
   left: 24px;
   line-height: 52px;
@@ -221,7 +221,7 @@ h5 {
   color: #172b4d;
   flex: none;
   flex-grow: 0;
-  font: normal 700 32px 'Poppins', sans-serif;
+  font: normal 700 32px Poppins, sans-serif;
   height: 36px;
   left: 0;
   line-height: 36px;
@@ -275,9 +275,9 @@ h5 {
   width: 55px;
 }
 
-.client>h6 {
+.client > h6 {
   color: #344563;
-  font: normal 600 13px 'Poppins', sans-serif;
+  font: normal 600 13px Poppins, sans-serif;
 }
 
 .role {
@@ -286,9 +286,9 @@ h5 {
   flex: none;
 }
 
-.role>span {
+.role > span {
   color: #4b5363;
-  font: 600 12.9px 'Poppins', sans-serif;
+  font: 600 12.9px Poppins, sans-serif;
 }
 
 .counter {
@@ -329,7 +329,7 @@ h5 {
   flex-grow: 0;
 }
 
-.year-label>span {
+.year-label > span {
   /* Text */
 
   position: static;
@@ -386,7 +386,7 @@ h5 {
   margin-bottom: 12px;
 }
 
-.tags>ul {
+.tags > ul {
   /* Tags */
 
   /* Auto layout */
@@ -436,7 +436,7 @@ h5 {
   flex-grow: 0;
 }
 
-.tag-html>span {
+.tag-html > span {
   /* html */
 
   position: static;
@@ -494,7 +494,7 @@ h5 {
   margin: 0 8px;
 }
 
-.tag-css>span {
+.tag-css > span {
   /* css */
 
   position: static;
@@ -552,7 +552,7 @@ h5 {
   margin: 0 8px;
 }
 
-.tag-js>span {
+.tag-js  >  span {
   /* javaScript */
 
   position: static;
@@ -599,7 +599,7 @@ h5 {
   margin: 12px 0;
 }
 
-.see-project>button {
+.see-project  >  button {
   /* See Project */
 
   position: static;
@@ -903,7 +903,7 @@ hr.solid {
   background-image: url(assets/desktop-contact-bg.svg);
 }
 
-.blue-rounded>h3 {
+.blue-rounded  >  h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -913,8 +913,8 @@ hr.solid {
   color: #fff;
 }
 
-.blue-rounded>p {
-  font-family: "Poppins", sans-serif;
+.blue-rounded  >  p {
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -982,7 +982,7 @@ form {
 
 .lowcase-error {
   color: rgb(201, 230, 36);
-  font: 400 15px 'Poppins', sans-serif;
+  font: 400 15px Poppins, sans-serif;
   margin: 5px;
 }
 
@@ -1213,7 +1213,7 @@ form {
     padding: 16px 142px;
   }
 
-  .menu>li {
+  .menu  >  li {
     display: inline;
     justify-content: space-between;
     padding: 8px;
@@ -1253,7 +1253,7 @@ form {
     width: 64%;
     margin: 10% 16% 0;
     animation-name: example;
-    animation-duration: 6s;
+    animation-duration: 8s;
   }
 
   @keyframes example {
@@ -1325,7 +1325,7 @@ form {
   }
 
   .snp-p-img:hover {
-    transform: scale(0.9);
+    transform: scale(1.3);
   }
 
   .left-block {
@@ -1414,14 +1414,14 @@ form {
     background-repeat: no-repeat;
   }
 
-  .blue-rounded>img {
+  .blue-rounded  >  img {
     position: absolute;
     width: 250px;
     left: 1000px;
     top: 21px;
   }
 
-  .blue-rounded>h3 {
+  .blue-rounded  >  h3 {
     /* Header / 2 */
 
     font-style: normal;
@@ -1439,7 +1439,7 @@ form {
     color: #fff;
   }
 
-  .blue-rounded>p {
+  .blue-rounded  >  p {
     /* Primary Text */
     margin: 0 20px;
     font-style: normal;
