@@ -66,6 +66,7 @@
         </ul>
       </section>
       <section class="works" id="portfolio">
+        <h2 class="hidden-h2">Just for checking</h2>
         <!--Dynamic part-->
       </section>
       <section class="about-myself" id="about">
@@ -81,43 +82,43 @@
               <li><a href="#"><img src="assets/finger.svg" alt="Peace" width="15" height="20"></a></li>
             </ul>
             <button class="get-my-resume">Get my resume</button>
-          </div>
-          <div class="skill-list">
-            <ul class="skill-ul">
-              <li>
-                <div class="skill-languages">
-                  <div class="languages">
-                      <span>
-                        Languages
-                      </span>
-                    </div>
-                    <div class="disabled-languages">
-                      <img class="disabled" src="assets/Disabled.svg" alt="disabled">
-                    </div>
-                  </div>
-                  <div class="languages-list">
-                    <ul class="social-list">
-                      <li><a href="#"><img src="assets/frame-9.svg" alt="Twitter" width="200" height="66"></a></li>
-                      <li><a href="#"><img src="assets/frame-10.svg" alt="Linkedin" width="200" height="66"></a></li>
-                      <li><a href="#"><img src="assets/frame-11.svg" alt="Medium" width="200" height="66"></a></li>
+        </div>
+        <div class="skill-list">
+          <ul class="skill-ul">
+            <li>
+              <div class="skill-languages">
+                <div class="languages">
+                  <span>
+                    Languages
+                  </span>
+                </div>
+                <div class="disabled-languages">
+                  <img class="disabled" src="assets/Disabled.svg" alt="disabled">
+                </div>
+              </div>
+              <div class="languages-list">
+                  <ul class="social-list">
+                    <li><a href="#"><img src="assets/frame-9.svg" alt="Twitter" width="200" height="66"></a></li>
+                    <li><a href="#"><img src="assets/frame-10.svg" alt="Linkedin" width="200" height="66"></a></li>
+                    <li><a href="#"><img src="assets/frame-11.svg" alt="Medium" width="200" height="66"></a></li>
                   </ul>
+              </div>
+              <hr class="solid">
+            </li>
+            <li>
+              <div class="skill-frameworks">
+                <div class="frameworks">
+                  <span>
+                    Frameworks
+                  </span>
                 </div>
-                <hr class="solid">
-              </li>
-              <li>
-                <div class="skill-frameworks">
-                  <div class="frameworks">
-                    <span>
-                      Frameworks
-                    </span>
-                  </div>
-                  <div class="chevron">
-                    <img class="chevron" src="assets/chevron.svg"  alt="chevron">
-                  </div>
+                <div class="chevron">
+                  <img class="chevron" src="assets/chevron.svg"  alt="chevron">
                 </div>
-                <hr class="solid">
-              </li>
-              <li>
+              </div>
+              <hr class="solid">
+            </li>
+            <li>
                 <div class="skill-skills">
                   <div class="skills">
                     <span>
@@ -129,49 +130,49 @@
                   </div>
                 </div>
                 <hr class="solid">
-              </li>
-            </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <section class="contact-me">
+      <footer>
+        <div class="blue-rounded" id="contact">
+          <h3 class="contact-heading">Contact me</h3>
+          <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+          <form id="contact-me" action="https://formspree.io/f/xgedddaq" method="post">
+            <!-- <label for="name"> Your name: </label> -->
+            <input id="name" type="text" name="name" placeholder="Enter your name" maxlength="30" required><br>
+            <!-- <label for="email"> Your email: </label> -->
+            <input id="mail" type="email" name="email" placeholder="Enter your email"><br>
+            
+            <!-- <label for="message"> Your message:</label> -->
+            <textarea id="message" name="message" cols="25" rows="20" placeholder="Write your message here" maxlength="500" required></textarea>
+            <div class="lowcase-error"></div>
+            <input class="submit" type="submit" id="btn" value="Get in touch">
+          </form>
+        </div>
+      </footer>
+    </section>
+      <!--Details Popup Window 
+      (not displayed until you click "See project" button)-->
+    <div class="pp-details" id="pp-details">
+      <div class="pp-container">
+        <div class="pp-top-block">
+          <h2 class="pp-hdng">Tonic</h2>
+          <div class="mobMenu-close">
+            <button onclick="detailsPp()" class="close-button">&times;</button>
           </div>
-        </section>
-        </main>
-        <section class="contact-me">
-          <footer>
-            <div class="blue-rounded" id="contact">
-              <h3 class="contact-heading">Contact me</h3>
-              <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-              <form action="https://formspree.io/f/xgedddaq" method="post">
-                <!-- <label for="name"> Your name: </label> -->
-                <input id="name" type="text" name="name" placeholder="Enter your name" maxlength="30" required><br>
-                <!-- <label for="email"> Your email: </label> -->
-                <input id="mail" type="email" name="email" placeholder="Enter your email"><br>
-                
-                <!-- <label for="message"> Your message:</label> -->
-                <textarea id="message" name="message" cols="25" rows="20" placeholder="Write your message here" maxlength="500" required></textarea>
-                <div class="lowcase-error"></div>
-                <input class="submit" type="submit" id="btn" value="Get in touch">
-              </form>
-            </div>
-          </footer>
-        </section>
-        <!--Details Popup Window 
-            (not displayed until you click "See project" button)-->
-        <div class="pp-details" id="pp-details">
-          <div class="pp-container">
-            <div class="pp-top-block">
-              <h2 class="pp-hdng">Tonic</h2>
-              <div class="mobMenu-close">
-                <button onclick="detailsPp()" class="close-button">&times;</button>
-              </div>
-            </div>
-            <img class="pp-img v-d" src="./assets/desktop-popup.svg" alt="desktop-snapshot">
-            <img class="pp-img v-m" src="assets/tonic.svg" alt="desktop-snapshot">
-            <div class="pp-btm-block">
-              <p class="pp-dscrptn">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eum ex magni perspiciatis, praesentium quidem nemo officiis quas et quae esse voluptatum, minima asperiores perferendis repellat sint quaerat expedita quia!
-                Sunt assumenda mollitia perspiciatis accusantium illum sapiente soluta praesentium dolor ipsum debitis fugiat, doloribus blanditiis quo ut repellendus corrupti, nobis rem voluptas! Quod aut atque officiis hic esse cumque ad!
-              </p>
-              <div class="pp-flex">
-                <div class="tags pp-specs">
+        </div>
+        <img class="pp-img v-d" src="./assets/desktop-popup.svg" alt="desktop-snapshot">
+        <img class="pp-img v-m" src="assets/tonic.svg" alt="desktop-snapshot">
+        <div class="pp-btm-block">
+            <p class="pp-dscrptn">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eum ex magni perspiciatis, praesentium quidem nemo officiis quas et quae esse voluptatum, minima asperiores perferendis repellat sint quaerat expedita quia!
+              Sunt assumenda mollitia perspiciatis accusantium illum sapiente soluta praesentium dolor ipsum debitis fugiat, doloribus blanditiis quo ut repellendus corrupti, nobis rem voluptas! Quod aut atque officiis hic esse cumque ad!
+            </p>
+            <div class="pp-flex">
+              <div class="tags pp-specs">
                       <div class="tag-html pp-tag">
                         <span>html</span>
                       </div>
@@ -190,24 +191,23 @@
                       <div class="tag-js pp-tag v-d">
                         <span>Bootstrap</span>
                       </div>
-                </div>
-                <hr class="solid">
-                <div class="pp-btns">
-                  <div class="pp-btn">
-                    <a class="see" href="https://nedramrez.github.io/portfolio">
+              </div>
+              <hr class="solid">
+              <div class="pp-btns">
+                <div class="pp-btn">
+                  <a class="see" href="https://nedramrez.github.io/portfolio">
                       <div class="see-txt">See live</div>
-                      <img src="./assets/blue-export.svg" alt="blue-export-icon">
-                    </a>
-                    <a class="see" href="https://github.com/Nedramrez/portfolio">
+                      <img src="./assets/blue-export.svg" alt="blue export button">
+                  </a>
+                  <a class="see" href="https://github.com/Nedramrez/portfolio">
                       <div class="see-txt">See Source</div>
                       <img src="./assets/blue-github.svg" alt="blue-export-icon">
-                    </a>
+                  </a>
                 </div>
               </div>
             </div>
-          </div>
         </div>
+      </div>
     </div>
   </body>
 </html>
-
