@@ -552,7 +552,7 @@ h5 {
   margin: 0 8px;
 }
 
-.tag-js  >  span {
+.tag-js > span {
   /* javaScript */
 
   position: static;
@@ -599,7 +599,7 @@ h5 {
   margin: 12px 0;
 }
 
-.see-project  >  button {
+.see-project > button {
   /* See Project */
 
   position: static;
@@ -903,7 +903,7 @@ hr.solid {
   background-image: url(assets/desktop-contact-bg.svg);
 }
 
-.blue-rounded  >  h3 {
+.blue-rounded > h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -913,7 +913,7 @@ hr.solid {
   color: #fff;
 }
 
-.blue-rounded  >  p {
+.blue-rounded > p {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1213,7 +1213,7 @@ form {
     padding: 16px 142px;
   }
 
-  .menu  >  li {
+  .menu > li {
     display: inline;
     justify-content: space-between;
     padding: 8px;
@@ -1414,14 +1414,14 @@ form {
     background-repeat: no-repeat;
   }
 
-  .blue-rounded  >  img {
+  .blue-rounded > img {
     position: absolute;
     width: 250px;
     left: 1000px;
     top: 21px;
   }
 
-  .blue-rounded  >  h3 {
+  .blue-rounded > h3 {
     /* Header / 2 */
 
     font-style: normal;
@@ -1439,7 +1439,7 @@ form {
     color: #fff;
   }
 
-  .blue-rounded  >  p {
+  .blue-rounded > p {
     /* Primary Text */
     margin: 0 20px;
     font-style: normal;
